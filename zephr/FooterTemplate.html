@@ -1,0 +1,70 @@
+<link rel="stylesheet" href="https://neworleanscitybusiness.com/zephr/nopg_footer/assets/css/reset.css">
+<link rel="stylesheet" href="https://neworleanscitybusiness.com/zephr/nopg_footer/assets/css/layout.css">
+<link rel="stylesheet" href="https://neworleanscitybusiness.com/zephr/nopg_footer/assets/css/style.css">
+<style>
+    .c-left-zephr {
+        background: {{title-background-color}};
+    }
+
+    .c-mid-zephr {
+        background-color: {{banner-color}};
+    }
+
+    .c-right-zephr {
+        background-color: {{button-background}};
+    }
+
+    .c-right-zephr a {
+        background-color: {{button-color}};
+        text-decoration: none !important;
+        color: {{button-text-color}} !important;
+    }
+
+    .wrapper-100p-zephr {
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        z-index: 2499998;
+    }
+
+    .close {
+        cursor: pointer;
+        color: {{color-x}};
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        position: absolute;
+        top: 1px;
+        right: 10px;
+    }
+</style>
+    <div class="wrapper-100p wrapper-100p-zephr">
+    <div class="c-modal">
+        <div class="c-dflex">
+            <div class="c-left c-left-zephr">
+                <div>
+                    <h5>{{title}}</h5>
+                </div>
+            </div>
+            <div class="c-mid c-mid-zephr">
+                <h2>{{sub-title}}</h2>
+                <p>{{text}}</p>
+            </div>
+            <div class="c-right c-right-zephr">
+                <a href="{{button-link}}">{{button-text}}</a>
+                <span class="close">&times;</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var modal = document.getElementsByClassName("wrapper-100p-zephr")[0];
+    var span = document.getElementsByClassName("close")[0];
+
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+</script>

@@ -1,0 +1,12 @@
+.c-dflex {
+	display: flex;
+}
+.c-prelative {
+	position: relative;
+}
+.wrapper-100p {
+	width: 100%;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}

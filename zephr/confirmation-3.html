@@ -1,0 +1,109 @@
+<style>
+    .mainBoxModal-confirmation-three {
+        position: fixed;
+        z-index: 99999;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s
+    }
+
+    .confirmation-three {
+        width: 300px;
+        position: fixed;
+        left: 50%;
+        top: 5px;
+        transform: translate(-50%, 0);
+        overflow: auto;
+        background-color: #ffffff !important;
+        border-radius: 5px;
+        -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+    }
+
+    .confirmation-three .confirmation-three-title {
+        color: black !important;
+        margin-top: 20px;
+        font-size: 30px !important;
+    }
+
+    .confirmation-three .conf-comp {
+        margin-left: 10px;
+        margin-right: 10px;
+
+        margin-bottom: 20px;
+    }
+
+    .confirmation-three .confirmation-three-text {
+        font-size: 19px !important;
+        color: black !important;
+    }
+
+    .confirmation-three .close{
+        color: {{x-color}} !important;
+        font-size: 18px !important;
+        font-weight: bold;
+        position: absolute;
+        right: 8px;
+        top:2px;
+        cursor: pointer;
+    }
+    
+    .confirmation-three .confirmation-three-button{
+        color: {{button-text-color}}!important;
+        font-size: 18px !important;
+        font-weight: 700;
+        border-color: {{button-color}} !important;
+        background-color: {{button-color}} !important;
+        width: 150px;
+        height: 40px;
+        line-height: 1;
+        border-radius: 7px;
+        border-style: solid;
+        cursor: pointer;
+        padding: 0 !important;
+    }
+
+    .confirmation-three .confirmation-three-link {
+        color: red !important;
+    }
+
+    @media only screen and (max-width: 400px) {
+            .confirmation-three{
+                width: calc(100% - 20px);
+            }
+        }
+
+</style>
+<div class="mainBoxModal-confirmation-three" id="mainBoxModal-confirmation-three">
+    <div class="confirmation-three" id="confirmation-three">
+        <span class="close">&times;</span>
+        <div class="confirmation-three-title conf-comp">
+            <b>{{title-name}}&nbsp;</b>{{title-text}}
+        </div>
+        <div class="confirmation-three-text conf-comp">
+            {{text-one-before-email}}<b>&nbsp;{{text-one-email}}&nbsp;</b>{{text-one-after-email}}
+        </div>
+        <div class="confirmation-three-text conf-comp">
+            {{text-two}}&nbsp;<a href="{{text-two-link-url}}" class="confirmation-three-link">{{text-two-link-text}}</a>
+        </div>
+        <div class="confirmation-three-text conf-comp">
+            {{text-three}}&nbsp;<a href="{{text-three-url}}"
+                class="confirmation-three-link">{{text-three-link-text}}</a>
+        </div>
+        <button class="confirmation-three-button conf-comp"
+            onclick="window.location.href='{{button-link}}'">{{button-text}}</button>
+    </div>
+</div>
+<script>
+    var modal = document.getElementsByClassName("mainBoxModal-confirmation-three")[0];
+    var close = document.getElementsByClassName("close")[0];
+
+    close.onclick = function () {
+        modal.remove();
+    }
+</script>

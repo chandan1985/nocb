@@ -1,0 +1,115 @@
+<style>
+    .groups-container{
+        position: fixed; 
+        z-index: 999999; 
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto; 
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s
+    }
+    .p{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .groups-border {
+        width: 300px !important;
+        position: fixed;
+        left: 50%;
+        top: 50%; 
+        transform: translate(-50%, -50%);
+        overflow: auto;
+        background-color: #FFFFFF !important;
+        border: solid #000000 20px!important;
+        border-width: 20px;
+        width: 260px !important;
+        height: 260px !important;
+        color: #000000 !important;
+    }
+    .groups-border.intersial .groups-content {
+        margin: 6px !important;
+        text-align: center;
+        padding-top: 3px !important;
+        padding-bottom: 3px !important;
+    }
+    .groups-border.intersial .groups-title {
+        margin-bottom: 10px !important;
+        color: #000000 !important;
+        font-size: 20px !important;
+        line-height: 25px !important;
+        font-weight: 600 !important;
+        font-family: retina black,Helvetica,sans-serif !important;
+    }
+    .groups-border.intersial .groups-description {
+        font-size: 11px !important;
+        padding: 0 0 15px 0 !important;
+        margin: 0 !important;
+    }
+    .groups-group-subscribe-wrapper, .register-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+    .groups-border .groups-group-subscribe-wrapper a.groups-button.omnitrack {
+        padding: 8px !important;
+        color: {{button_text_color}} !important;
+        background-color: {{button_color}}!important;
+        border-color: {{button_color}} !important;
+        background-image: none;
+        font-family: outsiders bold,Georgia,serif;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        color: #fff !important;
+        text-transform: capitalize;
+        text-decoration: none;
+        text-align: center;
+    }
+    .groups-border.intersial .groups-footer {
+        margin-bottom: 0 !important;
+        text-align: left !important;
+        margin: 13px -9px 0 !important;
+        padding: 8px 9px !important;
+        color: #000 !important;
+        border-top: 1px solid #d8d8d8 !important;
+        margin-left: 9px !important;
+        margin-right: 9px !important;
+    }
+    .login-link, .subscriber-link {
+        margin-bottom: 15px !important;
+    }
+    .groups-footer, .groups-footer * {
+        font-family: outsiders bold,Georgia,serif !important;
+        font-size: 10px !important;
+        line-height: 12px !important;
+        font-weight: 550 !important;
+    }
+    .groups-link{
+        color: black !important;
+    }
+
+</style>
+<div class="groups-container">
+    <div class="groups-border intersial layout-content">
+        <div class="groups-content region-content">
+            <div class="groups-title h1">
+                <span>{{title}}</span>
+            </div>
+            <div class="groups-description">
+                <p class="p">{{subtitle}}</p>
+            </div>
+            <div class="groups-group-subscribe-wrapper">
+                <a class="groups-button subscriber omnitrack" href="{{button_url}}">
+                    {{button_text}}
+                </a>
+            </div>
+        </div>
+        <footer class="groups-footer region-content">
+            <div class="login-link">
+                {{cta_text}}
+                <a class="groups-link" href="{{cta_url}}">{{cta_link_text}} &gt;</a>
+            </div>
+            <div><a class="groups-link" href="{{cta_two_url}}">{{cta_two_text}} &gt;</a></div>
+        </footer>
+    </div>
+</div>

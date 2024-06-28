@@ -1,0 +1,152 @@
+google.com, pub-2185944020836347, DIRECT, f08c47fec0942fa0
+infolinks.com, 3312934, direct
+appnexus.com, 3251, reseller
+google.com, pub-6373315980741255, reseller, f08c47fec0942fa0
+google.com, pub-4299156005397946, reseller, f08c47fec0942fa0
+google.com, pub-7858377917172490, reseller, f08c47fec0942fa0
+rubiconproject.com, 20322, reseller, 0bfd66d529a55807
+pubmatic.com, 60809, reseller, 5d62403b186f2ace
+yahoo.com, 58723, reseller
+adtech.com, 11409, reseller
+advertising.com, 6202, reseller
+advertising.com, 17744, reseller
+spotxchange.com, 74999, reseller, 7842df1d2fe2db34
+spotx.tv, 74999, reseller, 7842df1d2fe2db34
+indexexchange.com, 191306, reseller
+openx.com, 543174347, reseller, 6a698e2ec38604c6
+rhythmone.com, 2221906906, direct, a670c89d4a324e47
+video.unrulymedia.com, 2221906906, direct
+sovrn.com, 268479, direct, fafdf38b16bf6b2b
+lijit.com, 268479, direct, fafdf38b16bf6b2b
+lijit.com, 268479-eb, direct, fafdf38b16bf6b2b
+sonobi.com, 0e0a64d7d3, direct, d1a215d9eb5aee9e
+pubmatic.com, 158270, reseller, 5d62403b186f2ace
+appnexus.com, 7666, reseller, f5ab79cb980f11d1
+rubiconproject.com, 156042, reseller, 0bfd66d529a55807
+pubmatic.com, 156872, reseller, 5d62403b186f2ace
+rubiconproject.com, 20848, reseller, 0bfd66d529a55807
+indexexchange.com, 175407, reseller
+33across.com, 0010b00002cpyheaav, reseller, bbea06d9c4d2853c
+rubiconproject.com, 16414, reseller, 0bfd66d529a55807
+pubmatic.com, 156423, reseller, 5d62403b186f2ace
+appnexus.com, 10239, reseller, f5ab79cb980f11d1
+openx.com, 537120563, reseller, 6a698e2ec38604c6
+yahoo.com, 57289, reseller, e1a5b5b6e3255540
+emxdgt.com, 1918, reseller, 1e1d41537f7cad7f
+appnexus.com, 1356, reseller, f5ab79cb980f11d1
+google.com, pub-5995202563537249, reseller, f08c47fec0942fa0
+advertising.com, 28246, reseller
+rubiconproject.com, 11006, reseller, 0bfd66d529a55807
+onetag.com, 598ce3ddaee8c90, reseller
+#infolinks
+infolinks.com, 3268076, direct
+appnexus.com, 3251, reseller
+google.com, pub-6373315980741255, reseller, f08c47fec0942fa0
+google.com, pub-4299156005397946, reseller, f08c47fec0942fa0
+google.com, pub-7858377917172490, reseller, f08c47fec0942fa0
+google.com, pub-1463455084986126, reseller, f08c47fec0942fa0
+rubiconproject.com, 20322, reseller, 0bfd66d529a55807
+pubmatic.com, 60809, reseller, 5d62403b186f2ace
+yahoo.com, 58723, reseller
+advertising.com, 6202, reseller
+spotxchange.com, 74999, reseller, 7842df1d2fe2db34
+spotx.tv, 74999, reseller, 7842df1d2fe2db34
+indexexchange.com, 191306, reseller
+openx.com, 543174347, reseller, 6a698e2ec38604c6
+rhythmone.com, 2221906906, direct, a670c89d4a324e47
+video.unrulymedia.com, 2221906906, direct
+sovrn.com, 268479, direct, fafdf38b16bf6b2b
+lijit.com, 268479, direct, fafdf38b16bf6b2b
+lijit.com, 268479-eb, direct, fafdf38b16bf6b2b
+sonobi.com, 0e0a64d7d3, direct, d1a215d9eb5aee9e
+pubmatic.com, 158270, reseller, 5d62403b186f2ace
+appnexus.com, 7666, reseller, f5ab79cb980f11d1
+rubiconproject.com, 156042, reseller, 0bfd66d529a55807
+pubmatic.com, 156872, reseller, 5d62403b186f2ace
+rubiconproject.com, 20848, reseller, 0bfd66d529a55807
+33across.com, 0010b00002cpyheaav, reseller, bbea06d9c4d2853c
+rubiconproject.com, 16414, reseller, 0bfd66d529a55807
+pubmatic.com, 156423, reseller, 5d62403b186f2ace
+appnexus.com, 10239, reseller, f5ab79cb980f11d1
+openx.com, 537120563, reseller, 6a698e2ec38604c6
+yahoo.com, 57289, reseller, e1a5b5b6e3255540
+emxdgt.com, 1918, reseller, 1e1d41537f7cad7f
+appnexus.com, 1356, reseller, f5ab79cb980f11d1
+google.com, pub-5995202563537249, reseller, f08c47fec0942fa0
+advertising.com, 28246, reseller
+rubiconproject.com, 11006, reseller, 0bfd66d529a55807
+onetag.com, 598ce3ddaee8c90, reseller
+engagebdr.com, 10475, reseller
+e-planning.net, 901a809a65f984a4, reseller, c1ba615865ed87b2
+#infolinks
+infolinks.com, 3268076, direct
+appnexus.com, 3251, reseller
+pubmatic.com, 156872, reseller, 5d62403b186f2ace
+sonobi.com, 0e0a64d7d3, reseller, d1a215d9eb5aee9e
+sovrn.com, 268479, reseller, fafdf38b16bf6b2b
+lijit.com, 268479, reseller, fafdf38b16bf6b2b
+google.com, pub-6373315980741255, reseller, f08c47fec0942fa0
+google.com, pub-4299156005397946, reseller, f08c47fec0942fa0
+indexexchange.com, 191306, reseller
+openx.com, 543174347, reseller, 6a698e2ec38604c6
+yahoo.com, 58723, reseller
+advertising.com, 6202, reseller
+pubmatic.com, 60809, reseller, 5d62403b186f2ace
+emxdgt.com, 1918, reseller, 1e1d41537f7cad7f
+xandr.com, 3251, reseller
+lijit.com, 268479-eb, reseller, fafdf38b16bf6b2b
+google.com, pub-7858377917172490, reseller, f08c47fec0942fa0
+google.com, pub-1463455084986126, reseller, f08c47fec0942fa0
+rhythmone.com, 2221906906, reseller, a670c89d4a324e47
+video.unrulymedia.com, 2221906906, reseller
+criteo.com, B-059206, reseller, 9fac4a4a87c2a44f
+appnexus.com, 7666, reseller, f5ab79cb980f11d1
+rubiconproject.com, 156042, reseller, 0bfd66d529a55807
+33across.com, 0010b00002cpyheaav, reseller, bbea06d9c4d2853c
+rubiconproject.com, 16414, reseller, 0bfd66d529a55807
+pubmatic.com, 156423, reseller, 5d62403b186f2ace
+appnexus.com, 10239, reseller, f5ab79cb980f11d1
+openx.com, 537120563, reseller, 6a698e2ec38604c6
+yahoo.com, 57289, reseller, e1a5b5b6e3255540
+advertising.com, 12543, reseller
+appnexus.com, 1356, reseller, f5ab79cb980f11d1
+advertising.com, 28246, reseller
+rubiconproject.com, 11006, reseller, 0bfd66d529a55807
+onetag.com, 598ce3ddaee8c90, reseller
+engagebdr.com, 10475, reseller
+e-planning.net, 901a809a65f984a4, reseller, c1ba615865ed87b2
+improvedigital.com, 2016, reseller
+inmobi.com, b4821b1325c44dc581b04d743ca46575, reseller, 83e75a7ae333ca9d
+rubiconproject.com, 11726, reseller, 0bfd66d529a55807
+rubiconproject.com, 23998, DIRECT, 0bfd66d529a55807
+triplelift.com, 11582, RESELLER, 6c33edb13117fd86
+Media.net,8CUJ112MK,DIRECT
+sharethrough.com, 0d60edd5, RESELLER
+openx.com, 537100188, RESELLER, 6a698e2ec38604c6
+sonobi.com, 83729e979b, RESELLER
+districtm.io, 100600, RESELLER.
+EMXDGT.com, 1759, Reseller, 1e1d41537f7cad7f
+Appnexus.com, 1356, RESELLER, f5ab79cb980f11d1
+appnexus.com, 1908, RESELLER, f5ab79cb980f11d1
+google.com, pub-7439041255533808, RESELLER, f08c47fec0942fa0
+google.com, pub-9685734445476814, RESELLER, f08c47fec0942fa0
+onetag.com, 5d49f482552c9b6, Reseller
+rhythmone.com, 3611299104, RESELLER
+pubmatic.com, 159463, RESELLER, 5d62403b186f2ace
+rubiconproject.com, 19396, Reseller, 0bfd66d529a55807
+33across.com, 0010b00002cGp2AAAS, Reseller, bbea06d9c4d2853c
+lemmatechnologies.com, 399, RESELLER, 7829010c5bebd1fb #LEMMA
+e-planning.net,ec771b05828a67fa,RESELLER,c1ba615865ed87b2
+33across.com,0010b00002CpYhEAAV,reseller,bbea06d9c4d2853c
+adcolony.com,b175a0e2e9f44ee9,reseller,1ad675c9de6b5176
+aps.amazon.com,de948cab-9232-4f2a-90f5-794be75952c6,reseller
+disqus.com,533,reseller
+rubiconproject.com,18694,reseller,0bfd66d529a55807
+sharethrough.com,5pFlvV45,reseller,d53b998a7bd4ecd2
+sharethrough.com,UvcAx8IL,reseller,d53b998a7bd4ecd2
+smartadserver.com,3238,reseller,060d053dcf45cbf3
+themediagrid.com,V19ZSB,reseller,35d5010d7789b49d
+yahoo.com,58905,reseller,e1a5b5b6e3255540
+zeta.com,533,reseller
+conversantmedia.com,100232,reseller,03113cd04947736d
+media.net,8CUY6IX4H,RESELLER

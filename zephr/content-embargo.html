@@ -1,0 +1,118 @@
+<style>
+    .mainBoxModal-content-embargo {
+        position: fixed; 
+        z-index: 99999; 
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto; 
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s
+    }
+    .content-embargo{
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 550px;
+        overflow: auto;
+        background: linear-gradient({{background-color}} 97%, {{banner-color}} 3%) !important;
+        border-radius: 25px;
+    }
+    .content-embargo .text-container{
+        text-align: center;
+        margin-left: 59px;
+        margin-right: 59px;
+        font-family: sans-serif;
+        margin-top: 46px;
+        margin-bottom: 46px;
+    }
+    .content-embargo .logo-container{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    .content-embargo .logo-container .logo-custom{
+        height: 100px;
+    }
+    .content-embargo .title{
+        font-size: 34px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        color: black !important;
+    }
+    .content-embargo .subtitle{
+        margin-right: 13px;
+        margin-left: 13px;
+        font-size: 16px !important;
+        margin-bottom: 30px;
+        color: black !important;
+    }
+    .content-embargo .button{
+        color: {{button-text-color}} !important;
+        font-size: 20px !important;
+        font-weight: 700;
+        border-color: {{button-color}} !important;
+        background-color: {{button-color}} !important;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        margin: auto;
+        border-radius: 7px;
+        border-style: solid;
+        margin-bottom: 15px;
+        cursor: pointer;
+        padding: 0 !important;
+    }
+    .content-embargo .link{
+        text-decoration: none !important;
+        color: black !important;
+        font-size: 18px !important;
+    }
+    .content-embargo .close{
+        color: {{x-color}} !important;
+        font-size: 26px !important;
+        font-weight: bold;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        cursor: pointer;
+    }
+
+    @media only screen and (max-width: 550px) {
+            .content-embargo{
+                width: calc(100% - 20px);
+            }
+            .content-embargo .text-container{
+                margin-left: 10%;
+                margin-right: 10%;
+                margin-top: 46px;
+                margin-bottom: 46px;
+            }
+    }
+</style>
+<div class="mainBoxModal-content-embargo">
+    <div class="content-embargo">
+        <span class="close">&times;</span>
+        <div class="text-container">
+            <div class="logo-container">
+                <img class="logo-custom" src="{{logo-url}}" alt="logo"></img>
+            </div>
+            <div class="title">{{title}}</div>
+            <div class="subtitle">{{subtitle}}</div>
+            <div class="button" onclick="window.location.href='{{button-link}}'">{{button-text}}</div>
+            <div><a class="link" href="{{text_link}}">{{text}}</a></div>
+        </div>
+    </div>
+</div>
+<script>
+    var modal = document.getElementsByClassName("mainBoxModal-content-embargo")[0];
+    var close = document.getElementsByClassName("close")[0];
+
+    close.onclick = function () {
+        modal.remove();
+    }
+</script>

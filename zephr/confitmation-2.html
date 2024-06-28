@@ -1,0 +1,65 @@
+<style>
+    .confirmation-two{
+        display: flex;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        height: 180px;
+        width: 400px;
+        background-color: {{banner-color}} !important;
+    }
+    .confirmation-two .confirmation-two-left{
+        background-color: {{left-banner-color}} !important;
+        width: 20px;
+    }
+    .confirmation-text-container{
+        position: relative;
+        height: 180px;
+        width: 360px;
+        font-size: 20px !important;
+    }
+    .confirmation-two .confirmation-text-container .confirmation-two-middle{
+        width: calc(100% - 40px);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: sans-serif;
+        color: whitesmoke !important;
+    }
+    .confirmation-two .confirmation-two-close {
+        margin-top: 2px;
+        margin-right: 4px;
+        color: {{x-color}} !important;
+        width: 20px;
+        text-align: center;
+        font-size: 18px !important;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    @media only screen and (max-width: 400px) {
+            .confirmation-two{
+                width: calc(100%);
+            }
+            .confirmation-text-container{
+                font-size: 16px !important;
+                width: calc(100% - 40px);
+
+            }
+        }
+    
+</style>
+<div class="confirmation-two">
+    <div class="confirmation-two-left"></div>
+        <div class="confirmation-text-container">
+            <div class="confirmation-two-middle">{{text}}</div>
+        </div>
+    <div class="confirmation-two-close">&times;</div>
+</div>
+<script>
+    var modal = document.getElementsByClassName("confirmation-two ")[0];
+    var close = document.getElementsByClassName("confirmation-two-close")[0];
+
+    close.onclick = function () {
+        modal.remove();
+    }
+</script>

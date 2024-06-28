@@ -1,0 +1,338 @@
+    <style>
+         .mainBoxModal-paywall {
+            position: fixed; 
+            z-index: 99999; 
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto; 
+            -webkit-animation-duration: 0.4s;
+            animation-duration: 0.4s
+        }
+        .paywall {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            height: 645px;
+            overflow: auto;
+            font-family: sans-serif;
+            background-color: {{banner-color}} !important;
+        }
+        .paywall .close{
+            color: {{x-color}} !important;
+            font-size: 26px !important;
+            font-weight: bold;
+            position: absolute;
+            right: 12px;
+            top: 1px;
+            cursor: pointer;
+        }
+        .paywall .paywall-head{
+            text-align: center;
+            font-family: sans-serif;
+            margin-top: 35px;
+        }
+        .paywall .paywall-head .logo-container{
+            display: flex;
+            justify-content: center;
+            height: 110px;
+            margin-bottom: 20px;
+        }
+        .paywall .paywall-head .logo-container .logo-custom{
+            height: 110px;
+        }
+        .paywall .paywall-head .title{
+            font-weight: 600;
+            font-size: 23px !important;
+            margin-bottom: 15px;
+            color: black !important;
+        }
+        .paywall .paywall-head .subtitle{
+            font-size: 19px !important;
+            margin-bottom: 20px;
+            color: black !important;
+        }
+        .paywall .plans-container{
+            font-family: sans-serif;
+            display: flex;
+            justify-content: space-evenly;
+            
+        }
+        .paywall .plans-container .option{
+            width: 250px;
+            height: 350px;
+            overflow: auto;
+            border-bottom: 3px solid;
+          
+        }
+        /* id */
+         #option-1{
+            background-color: {{option-1-color}} !important;
+            border-color: {{option-1-border-color}} !important;
+        }
+        #option-2{
+            background-color: {{option-2-color}} !important;
+            border-color: {{option-2-border-color}} !important;
+        }
+        #option-3{
+            background-color: {{option-3-color}} !important;
+            border-color: {{option-3-border-color}} !important;
+        }
+        #option-4{
+            background-color: {{option-4-color}} !important;
+            border-color: {{option-4-border-color}} !important;
+        }      
+        .paywall .plans-container .option .paywall-header{
+            width: 250px;
+            height: 150px;
+        }
+        /* id */
+        #header-1{
+            background-color: {{option-1-header-color}} !important;
+        }
+        #header-2{
+            background-color: {{option-2-header-color}} !important;
+        }
+        #header-3{
+            background-color: {{option-3-header-color}} !important;
+        }
+        #header-4{
+            background-color: {{option-4-header-color}} !important;
+        }
+
+        .paywall .plans-container .option .paywall-header .paywall-header-text{
+            padding: 15px 40px 15px 15px;
+            font-size: 26px !important;
+            font-weight: 600;
+        }
+        #header-text-1{
+            color: {{option-1-header-text-color}} !important;
+        }
+        #header-text-2{
+            color: {{option-2-header-text-color}} !important;
+        }
+        #header-text-3{
+            color: {{option-3-header-text-color}} !important;
+        }
+        #header-text-4{
+            color: {{option-4-header-text-color}} !important;
+        }
+        .paywall .plans-container .option .paywall-content .text-container{
+            position: relative;
+            height: 145px;
+            font-size: 22px;
+            font-weight: 500;
+        }
+        .paywall .plans-container .option .paywall-content {
+            height: 197px;
+            width: 250px;
+            border-left: 3px solid ;
+            border-right: 3px solid ;
+            border-top: 0px;
+        }
+        #content-1{
+            border-color: {{option-1-border-color}} !important;
+        }
+        #content-2{
+            border-color: {{option-2-border-color}} !important;
+        }
+        #content-3{
+            border-color: {{option-3-border-color}} !important;
+        }
+        #content-4{
+            border-color: {{option-4-border-color}} !important;
+        }
+        .paywall .plans-container .option .paywall-content .text-container-text{
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+        }
+        #text-container-text-1{
+            color: {{option-1-text-color}} !important;
+        }
+        #text-container-text-2{
+            color: {{option-2-text-color}} !important;
+        }
+        #text-container-text-3{
+            color: {{option-3-text-color}} !important;
+        }
+        #text-container-text-4{
+            color: {{option-4-text-color}} !important;
+        }
+        .paywall .plans-container .option .paywall-content .button-container{
+            text-align: center;
+        }
+        .paywall .plans-container .option .paywall-content .button-element{
+            font-size: 20px !important;
+            font-weight: 700;
+            width: 200px;
+            height: 40px;
+            border-radius: 7px;
+            border-style: solid;
+            cursor: pointer;
+            padding: 0 !important;
+        }
+        #button-1{
+            color: {{option-1-button-text-color}} !important;
+            border-color: {{option-1-button-color}} !important;
+            background-color: {{option-1-button-color}} !important;
+        }
+        #button-2{
+            color: {{option-2-button-text-color}} !important;
+            border-color: {{option-2-button-color}} !important;
+            background-color: {{option-2-button-color}} !important;
+        }
+        #button-3{  
+            color: {{option-3-button-text-color}} !important;
+            border-color: {{option-3-button-color}} !important;
+            background-color: {{option-3-button-color}} !important;
+        }
+        #button-4{
+            color: {{option-4-button-text-color}} !important;
+            border-color: {{option-4-button-color}} !important;
+            background-color: {{option-4-button-color}} !important;
+        }   
+    </style> 
+    <div class="mainBoxModal-paywall" id="mainBoxModal-paywall">
+        <div class="paywall" id="paywall">
+        <span class="close">&times;</span>
+        <div class="paywall-head">
+            <div class="logo-container">
+                <img class="logo-custom" src="{{logo_link}}" alt="logo"></img>
+            </div>
+            <div class="title">
+                {{title}}
+            </div>
+            <div class="subtitle">
+                {{subtitle}}
+            </div>
+        </div>
+        <div class="plans-container" id="plans-container">
+            <div class="option" id="option-1">
+                <div class="paywall-header" id="header-1">
+                        <div class="paywall-header-text" id="header-text-1">
+                            {{option-1-header-text}}
+                        </div>
+                </div>
+                <div class="paywall-content" id="content-1">
+                    <div class="text-container" id="text-container-1">
+                        <div class="text-container-text" id="text-container-text-1">{{option-1-text}}</div>
+                    </div>
+                    <div class="button-container">
+                        <button 
+                            class="button-element" 
+                            id="button-1"
+                            onclick="window.location.href='{{option-1-button-link}}';"
+                            >{{option-1-button-text}}</button>
+                    </div>
+                </div>
+            </div>
+            <div class="option" id="option-2">
+                <div class="paywall-header" id="header-2">
+                        <div class="paywall-header-text" id="header-text-2">
+                            {{option-2-header-text}}
+                        </div>
+                </div>
+                <div class="paywall-content" id="content-2">
+                    <div class="text-container" id="text-container-2">
+                        <div class="text-container-text" id="text-container-text-2">{{option-2-text}}</div>
+                    </div>
+                    <div class="button-container">
+                        <button 
+                            class="button-element" 
+                            id="button-2"
+                            onclick="window.location.href='{{option-2-button-link}}';"
+                            >{{option-2-button-text}}</button>
+                    </div>
+                </div>
+            </div>
+            <div class="option" id="option-3">
+                <div class="paywall-header" id="header-3">
+                        <div class="paywall-header-text" id="header-text-3">
+                            {{option-3-header-text}}
+                        </div>
+                </div>
+                <div class="paywall-content" id="content-3">
+                    <div class="text-container" id="text-container-3">
+                        <div class="text-container-text" id="text-container-text-3">{{option-3-text}}</div>
+                    </div>
+                    <div class="button-container">
+                        <button 
+                            class="button-element" 
+                            id="button-3"
+                            onclick="window.location.href='{{option-3-button-link}}';"
+                            >{{option-3-button-text}}</button>
+                    </div>
+                </div>
+            </div>
+            <div class="option" id="option-4">
+                <div class="paywall-header" id="header-4">
+                        <div class="paywall-header-text" id="header-text-4">
+                            {{option-4-header-text}}
+                        </div>
+                </div>
+                <div class="paywall-content" id="content-4">
+                    <div class="text-container" id="text-container-4">
+                        <div class="text-container-text" id="text-container-text-4">{{option-4-text}}</div>
+                    </div>
+                    <div class="button-container">
+                        <button 
+                            class="button-element" 
+                            id="button-4"
+                            onclick="window.location.href='{{option-4-button-link}}';"
+                            >{{option-4-button-text}}</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        let plansContainer = document.getElementById("plans-container");
+        let paywall = document.getElementById("paywall");
+        let n = +{{options_number}};
+
+        let opOne = document.getElementById("option-1");
+        let opTwo = document.getElementById("option-2");
+        let opThree = document.getElementById("option-3");
+        let opFour = document.getElementById("option-4");
+
+        if(n && n >= 2){
+            paywall.style.width = "1100px";
+        }
+
+        if(n && n < 3){
+            paywall.style.width = "750px";
+        }
+
+        if(typeof +n !== "number" || n < 1 || n > 4){
+            plansContainer.innerHTML += "<div>Invalid Number</div>";
+        } 
+
+        if(+n === 1){
+            opTwo.remove();
+            opThree.remove();
+            opFour.remove();
+        }
+        
+        if(+n === 2){
+            opThree.remove();
+            opFour.remove();
+        }
+
+        if(+n === 3){
+            opFour.remove();
+        }
+
+        var modal = document.getElementById("mainBoxModal-paywall");
+        var close = document.getElementsByClassName("close")[0];
+
+        close.onclick = function () {
+            modal.remove();
+        }
+    </script>

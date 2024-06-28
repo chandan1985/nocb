@@ -1,0 +1,151 @@
+
+<style>
+    .mainBoxModal-renew{
+    position: fixed; 
+    z-index: 99999; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s
+    }
+    .renew{
+        width: 100%;
+        bottom: 0;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 3px solid;
+        border-bottom: 0px;
+        overflow: auto;
+        position: fixed;
+        background-color: {{background-color}} !important;
+    }
+    .renew .renew-content{
+        display: flex;
+        margin-top: 30px
+    }
+    .renew .left-side{
+        color: black !important;
+        margin-left: 30px;
+        width: 80%;
+    }
+    
+    .renew .left-side .left-side-top {
+        display: flex;
+        font-size: 17px !important;
+    }
+    .renew .left-side .left-side-top .left-side-top-one {
+        color: red !important;
+        font-size: 19px !important;
+        font-weight: 700;
+    }
+    .renew .left-side .left-side-top .left-side-line{
+        background-color: rgb(196 193 193) !important;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 100%;
+        width: 1px;
+    }
+    .renew .left-side .left-side-top .left-side-top-text{
+        display: flex;
+        margin-top: 2px !important;
+    }
+    .renew .left-side .left-side-top .left-side-top-link {
+        color:rgb(122, 116, 116) !important;
+        margin-top: 2px !important;
+    }
+    .renew .left-side .left-side-bottom .left-side-bottom-top{
+        font-size: 27px !important;
+        font-weight: 600;
+    }
+    .renew .left-side .left-side-bottom .left-side-bottom-bottom{
+        margin-top: 2px !important;
+        font-size: 20px !important;
+    }
+    .renew .right-side{
+        width: 20%;
+    }
+    .renew .left-element{
+        margin-bottom: 30px;
+    }
+    .renew .renew-button{
+        color: {{button-text-color}} !important;
+        font-size: 18px !important;
+        font-weight: 700;
+        border-color: {{button-color}} !important;
+        background-color:{{button-color}} !important;
+        width: 150px;
+        height: 40px;
+        line-height: 1;
+        border-radius: 7px;
+        border-style: solid;
+        cursor: pointer;
+        padding: 0 !important;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+    .renew  .close{
+        color: {{x-color}}  !important;
+        font-size: 18px !important;
+        font-weight: bold;
+        position: absolute;
+        right: 8px;
+        top:2px;
+        cursor: pointer;
+    }
+    .button-text-containter{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    @media only screen and (max-width: 710px) {
+        .renew .left-side .left-side-top {
+            font-size: 8px !important;
+        }
+        .renew .left-side .left-side-top .left-side-top-one {
+            font-size: 11px !important;
+        }
+        .renew .left-side .left-side-bottom .left-side-bottom-top {
+            font-size: 12px !important;
+        }
+        .renew .left-side .left-side-bottom .left-side-bottom-bottom {
+            font-size: 10px !important;
+        }
+        .renew .renew-button {
+            font-size: 12px !important;
+            width: auto;
+            height: 40px;
+        }
+    }
+</style>
+<div class="mainBoxModal-renew">
+    <div class="renew">
+        <span class="close">&times;</span>
+        <div class="renew-content">
+            <div class="left-side">
+                <div class="left-side-top left-element"><div class="left-side-top-one">{{number}}</div><div class="left-side-top-text">&nbsp;{{title}}<div class="left-side-line"></div>{{subtitle}}&nbsp;</div><a class="left-side-top-link" href="{{link-url}}">{{link-text}}</a></div>
+                <div class="left-side-bottom left-element">
+                    <div class="left-side-bottom-top">{{text-line-one}}</div>
+                    <div class="left-side-bottom-bottom">{{text-line-two}}</div>
+                </div>
+            </div>
+            <div class="right-side">
+                <button class="renew-button" onclick="window.location.href='{{button-link}}'">
+                    <div class="button-text-containter">{{button-text}}</div>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</div>
+<script>
+    var modal = document.getElementsByClassName("mainBoxModal-renew")[0];
+    var close = document.getElementsByClassName("close")[0];
+
+    close.onclick = function () {
+        modal.remove();
+    }
+</script>

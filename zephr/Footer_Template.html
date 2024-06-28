@@ -1,0 +1,196 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+</head>
+<body>
+	<div class="met-flyout met-rule-1419" aria-hidden="true">
+		<style>
+			.met-rule-1419 {
+				height: 104px;
+				width: 100%;
+				padding: 24px 40px;
+				max-width: 1200px;
+				text-align: center;
+				font: 400 18px/24px Lato, Arial, sans-serif;
+				box-sizing: border-box;
+				;
+				background-color: {{banner-colour}};
+				color: {{banner-text-colour}};
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				box-shadow: 0 1px 4px 0 #9b9b9b;
+				margin: 0 auto;
+				-webkit-transition: -webkit-transform 375ms cubic-bezier(.2, .84, .46, .99);
+				-moz-transition: -moz-transform 375ms cubic-bezier(.2, .84, .46, .99);
+				transition: transform 375ms cubic-bezier(.2, .84, .46, .99);
+				z-index: 2499998
+			}
+
+			.met-rule-1419 b {
+				font-weight: 700
+			}
+
+			.met-rule-1419 mark {
+				color: {{title-colour}};
+				background: 0 0
+			}
+
+			.met-toast-left,
+			.met-toast-right {
+				float: left
+			}
+
+			.met-rule-1419 .met-flyout-close,
+			.met-rule-1419 [data-met-return] {
+				float: right
+			}
+
+			.met-toast-left {
+				text-align: right;
+				padding-right: 20px;
+				line-height: 56px;
+				white-space: nowrap;
+				width: 160px;
+				letter-spacing: 0;
+				color: #fff
+			}
+
+			.met-toast-left:before {
+				content: "";
+				border-right: 1px solid;
+				border-right-color: #FFF;
+				height: 40px;
+				float: right;
+				position: relative;
+				top: 8px;
+				left: 20px
+			}
+
+			.met-toast-right {
+				padding: 4px 0 0 20px;
+				line-height: 24px;
+				width: 256px;
+				font-size: 13px;
+			}
+
+			.met-rule-1419 [data-met-return] {
+				background-color: {{button-colour}};
+				font-size: 14px;
+				line-height: 40px;
+				text-decoration: none;
+				border-radius: 3px;
+				margin-top: 8px;
+				white-space: nowrap;
+				width: 344px;
+				color: #333
+			}
+
+			.met-rule-1419 [data-met-return] mark {
+				color: {{button-text-colour}};
+				background: 0 0
+			}
+
+			.met-rule-1419 [data-met-return] i {
+				color: #fff;
+				font-style: normal
+			}
+
+			.met-rule-1419 .met-flyout-close {
+				cursor: pointer;
+				display: table-cell;
+				position: absolute;
+				right: 15px;
+				top: 10px;
+				width: 20px;
+				height: 20px;
+				overflow: hidden
+			}
+
+			.met-rule-1419 .met-flyout-close svg {
+				height: 20px
+			}
+
+			.met-toast-varA .met-toast-right div:last-child,
+			.met-toast-varC .met-toast-left,
+			.met-toast-varD .met-toast-left {
+				display: none
+			}
+
+			.met-toast-varA .met-toast-right {
+				text-align: left;
+				line-height: 56px;
+				padding-top: 0
+			}
+
+			.met-toast-varB .met-toast-right {
+				text-align: left
+			}
+
+			.met-toast-varC .met-toast-right {
+				width: 416px;
+				padding-left: 0
+			}
+
+			.met-toast-varD .met-toast-right {
+				width: 280px;
+				padding-left: 0
+			}
+
+			.met-toast-varD [data-met-return] {
+				width: 480px
+			}
+
+			@media only screen and (max-width:839px) {
+				.met-rule-1419 {
+					background-image: none;
+					padding: 24px 14px
+				}
+
+				.met-rule-1419 [data-met-return] {
+					width: 96px
+				}
+
+				.met-toast-varD [data-met-return] {
+					width: 232px
+				}
+
+				.met-rule-1419 .met-flyout-close {
+					right: 10px;
+					top: 5px
+				}
+			}
+
+			@media only screen and (max-width:547px) {
+				.met-rule-1419 {
+					display: none
+				}
+			}
+		</style>
+		<div class="met-toast-varB" role="complementary" aria-labelledby="trialHeading">
+			<a href="#" aria-label="Close" class="met-flyout-close met-visually-hidden">
+				<svg viewBox="0 0 25 32" fill="#FFF">
+					<path d="M23.18 23.61q0 .71-.5 1.21l-2.43 2.43q-.5.5-1.21.5t-1.21-.5L12.58 22l-5.25 5.25q-.5.5-1.21.5t-1.21-.5l-2.43-2.43q-.5-.5-.5-1.21t.5-1.21l5.25-5.25-5.25-5.25q-.5-.5-.5-1.21t.5-1.21l2.43-2.43q.5-.5 1.21-.5t1.21.5l5.25 5.25 5.25-5.25q.5-.5 1.21-.5t1.21.5l2.43 2.43q.5.5.5 1.21t-.5 1.21l-5.25 5.25 5.25 5.25q.5.5.5 1.21z"></path>
+				</svg>close</a>
+			<h2 class="met-toast-left">
+				<b><mark>{{title}}</mark></b></h2>
+			<div class="met-toast-right">
+				<div><b>{{sub-title}}</b></div>
+				<div>{{text}}</div>
+			</div>
+			<a href="{{button-link}}" data-met-return=""><b><mark>{{button-text}}</mark></b></a>
+		</div>
+	</div>
+	<script type="text/javascript">
+	  if (!window.Zephr) window.Zephr = {};
+	  window.Zephr.accessDetails = {"authenticated":false,"accessDecisions":{},"entitlements":{},"credits":{"eRpyFF":{"usedInDecision":false,"totalCredits":5,"remainingCredits":5}},"meters":{"l8bTEQ":{"usedInDecision":false,"totalCredits":2,"remainingCredits":0},"ncOSSS":{"usedInDecision":false,"totalCredits":4,"remainingCredits":4}},"trialTrackingDetails":[],"testGroups":{"4d1d4b54-de3d-4d47-a752-37aa2f52f40c":"A","f16c6095-d32e-4d79-ab85-36627be3fbcd":"A","c3513ade-c774-4271-a02d-28d2cf3b450e":"B"},"activeProducts":[]};
+	</script>
+	<script>
+		document.getElementsByClassName('met-flyout-close')[0].onclick = function(){closeZephrFooter()};
+		function closeZephrFooter() {
+			document.getElementsByClassName('met-flyout')[0].style.display = 'none';
+		}
+	</script>
+</body>
+</html>

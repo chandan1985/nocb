@@ -1,0 +1,114 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<style>
+    .licensing-container{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .licensing{
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 336px;
+        border-bottom: 3px solid black !important;
+    }
+    .licensing .licensing-title{
+        font-family: 'Anton', sans-serif !important;
+        font-size: 22px !important;
+        width: 100%;
+        font-weight: 600;
+        text-align: center;
+        color: black !important;
+    }
+    .licensing .licensing-subtitle{
+        font-size: 14px !important;
+        width: 100%;
+        margin-bottom: 23px;
+        text-align: center;
+        color: black !important;
+    }
+    .licensing .licensing-text-title{
+        font-weight: 600;
+        font-size: 14px !important;
+        text-align: center;
+        color: black !important;
+    }
+    .licensing-bullet{
+        font-size: 13px !important;
+        
+    }
+    .licensing-list-container{
+        margin-bottom: 17px;
+        color: black !important;
+    }
+    .licensing-list{
+        margin-left: 25px;
+        margin-right: 25px;
+
+    }
+    .licensing-button{
+        color: {{button-text-color}}!important;
+        font-size: 15px !important;
+        font-family: sans-serif;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        border-color: {{button-color}} !important;
+        background-color: {{button-color}} !important;
+        min-width: 140px;
+        height: 45px;
+        border-radius: 1px;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        cursor: pointer;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+    .licensing-button-container{
+        text-align: center;
+    }
+</style>
+<div class="licensing-container">
+<div class="licensing">
+    <div class="licensing-title">{{title}}</div>
+    <div class="licensing-subtitle">{{subtitle}}</div>
+    <div class="licensing-text-title">-&nbsp;{{text_title}}&nbsp;-</div>
+    <div class="licensing-list-container">
+        <ul class="licensing-list">
+            <li class="licensing-bullet" id="upsell-bullet-1">{{bullet_text_1}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-2">{{bullet_text_2}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-3">{{bullet_text_3}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-4">{{bullet_text_4}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-5">{{bullet_text_5}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-6">{{bullet_text_6}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-7">{{bullet_text_7}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-8">{{bullet_text_8}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-9">{{bullet_text_9}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-10">{{bullet_text_10}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-11">{{bullet_text_11}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-12">{{bullet_text_12}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-13">{{bullet_text_13}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-14">{{bullet_text_14}}</li>
+            <li class="licensing-bullet" id="upsell-bullet-54">{{bullet_text_15}}</li>
+
+        </ul>
+    </div>
+    <div class="licensing-button-container">
+        <button class="licensing-button" onclick="window.location.href='{{button-link}}'">{{button-text}}</button>
+    </div>
+</div>
+</div>
+<script>
+    const n = +"{{bullets_count}}";
+    const bullets = document.getElementsByClassName("licensing-bullet");
+    Array.from(bullets).forEach((bullet, index) => {
+        if(index + 1 > +n){
+            bullet.remove()
+        }
+    });
+</script>

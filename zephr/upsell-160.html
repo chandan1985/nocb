@@ -1,0 +1,148 @@
+<style>
+    .upsell-container{
+        position: fixed; 
+        z-index: 99999; 
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto; 
+        -webkit-animation-duration: 0.4s;
+        animation-duration: 0.4s
+    }
+    .upsell{
+        width: 150px;
+        position: fixed;
+        left: 50%;
+        top: 5px;
+        transform: translate(-50%, 0);
+        overflow: auto;
+        padding-left:8px !important;
+        padding-right:8px !important;
+        padding-top:12px !important;
+        padding-bottom: 12px !important;
+        background-color: {{background-color}} !important;
+    }
+    .upsell .upsell-title{
+        text-align: center;
+        font-size: 17px !important;
+        font-weight: 600;
+        color: black !important;
+        margin-bottom: 4px !important;
+    }
+    .upsell .upsell-subtitle{
+        text-align: center;
+        font-size: 11px !important;
+        font-weight: 600;
+        color: black !important;
+        margin-bottom: 24px !important;
+    }
+    .upsell .upsell-logo-container{
+        display: flex;
+        justify-content: center;
+        height: 56px;
+    }
+    .upsell .upsell-logo-container .upsell-logo{
+        height: 56px;
+    }
+    .upsell .upsell-offer{
+        margin-top: 14px !important;
+        text-align: center;
+        color: {{offer-text-color}} !important;
+        font-size: 13px !important;
+        font-weight: 600;
+        margin-bottom: 15px !important;
+    }
+    .upsell .upsell-subtext{
+        text-align: center;
+        color: rgb(109, 106, 106) !important;
+        font-size: 12px !important;
+        margin-bottom: 22px !important;
+
+    }
+    .button-container{
+        margin-bottom: 20px !important;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .upsell-button{
+        color: {{button-text-color}} !important;
+        font-size: 12px !important;
+        font-family: sans-serif;
+        font-weight: 700;
+        line-height: 1;
+        text-align: center;
+        border-color: {{button-color}} !important;
+        background-color: {{button-color}}  !important;
+        width: 95%;
+        height: 32px;
+        border-radius: 0px;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        cursor: pointer;
+        padding: 0 !important;
+        margin: auto;
+
+    }
+    .upsell-line{
+        width: 100%;
+        height: 1px;
+        background-color: rgb(185, 180, 180) !important;
+    }
+    .upsell-bullet{
+        color: rgb(109, 106, 106) !important;
+        font-size: 13px !important;
+        margin-bottom: 5px !important;
+    }
+    .upsell-bullets{
+        margin: revert !important;
+        padding: 0 10px 0px 20px !important;
+    }
+
+
+</style>
+<div class="upsell-container">
+<div class="upsell">
+    <div class="upsell-title">{{title}}</div>
+    <div class="upsell-subtitle">{{subtitle}}</div>
+    <div class="upsell-logo-container">
+        <img class="upsell-logo" alt="logo" src="{{logo-src}}"></img>
+    </div>
+    <div class="upsell-offer">{{offer-text}}</div>
+    <div class="upsell-subtext">{{offer-subtitle}}</div>
+    <div class="button-container">
+    <button class="upsell-button" onclick="window.location.href='{{button-link}}'">{{button-text}}</button>
+    </div>
+    <div class="upsell-line"></div>
+    <div class="upsell-bulets-container">
+        <ul class="upsell-bullets">
+            <li class="upsell-bullet"  id="upsell-bullet-1">{{li-1-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-2">{{li-2-text}}</li>
+            <li class="upsell-bullet" id="upsell-bullet-3">{{li-3-text}}</li>
+            <li class="upsell-bullet" id="upsell-bullet-4">{{li-4-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-5">{{li-5-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-6">{{li-6-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-7">{{li-7-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-8">{{li-8-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-9">{{li-9-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-10">{{li-10-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-11">{{li-11-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-12">{{li-12-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-13">{{li-13-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-14">{{li-14-text}}</li>
+            <li class="upsell-bullet"  id="upsell-bullet-15">{{li-15-text}}</li>
+        </ul>
+    </div>
+</div>
+</div>
+<script>
+    const n = +"{{count_list}}";
+    const bullets = document.getElementsByClassName("upsell-bullet");
+    Array.from(bullets).forEach((bullet, index) => {
+        if(index + 1 > +n){
+            bullet.remove()
+        }
+    });
+</script>
