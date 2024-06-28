@@ -1,0 +1,46 @@
+/* 
+ * Default styles for TDC Add to Home Screen
+ */
+ 
+/*  Front end */
+#addToHomeScreen .addToHomeClose {
+	-webkit-text-size-adjust:100%;
+}
+
+/* Admin options page */
+#ATHS_Options h3 {
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+#returning_visitor, label[for=returning_visitor] {
+	display: none !important;
+}
+
+#ATHS_Options h4 {
+	margin-bottom: 0;
+	margin-top: 0.8em;
+}
+
+#ATHS_Options p {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+
+#ATHS_Options p.description {
+	font-size: 0.9em;	
+	font-style: italic;
+	margin: 3px 0;
+}
+
+#ATHS_Options th.icon,
+#ATHS_Options td.icon {
+	width: 20%;
+}
+
+#ATHS_Options .widefat td input{
+	width: 100%;
+}
+#ATHS_Options .form-table th {
+    padding-left: 15px;
+}

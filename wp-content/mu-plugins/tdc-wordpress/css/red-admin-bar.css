@@ -1,0 +1,132 @@
+#wpadminbar * {
+	color: #FFF8EB;
+	text-shadow: #8F5F00 0px -1px 0px;
+}
+
+#wpadminbar,
+#wpadminbar .ab-top-secondary {
+	color: #FFF8EB;
+	
+	background-color: #ff4b0f; /* Fallback */
+	background-image: -ms-linear-gradient(bottom, #E03800, #ff4b0f 6px); /* IE10 */
+	background-image: -moz-linear-gradient(bottom, #E03800, #ff4b0f 6px); /* Firefox */
+	background-image: -o-linear-gradient(bottom, #E03800, #ff4b0f 6px); /* Opera */
+	background-image: -webkit-gradient(linear, left bottom, left top, from(#E03800), to(#ff4b0f)); /* old Webkit */
+	background-image: -webkit-linear-gradient(bottom, #E03800, #ff4b0f 6px); /* new Webkit */
+	background-image: linear-gradient(bottom, #E03800, #ff4b0f 6px); /* proposed W3C Markup */
+}
+
+#wpadminbar .quicklinks > ul > li {
+	border-right: 1px solid #FF6633;
+}
+
+#wpadminbar .quicklinks > ul > li > a,
+#wpadminbar .quicklinks > ul > li > .ab-empty-item {
+	border-right: 1px solid #E03800;
+}
+
+#wpadminbar .quicklinks > ul > li.opposite,
+#wpadminbar .quicklinks .top-secondary > li,
+#wpadminbar .quicklinks .ab-top-secondary > li {
+	border-left: 1px solid #E03800;
+}
+
+#wpadminbar .quicklinks > ul > li.opposite > a,
+#wpadminbar .quicklinks .top-secondary > li > a,
+#wpadminbar .quicklinks .ab-top-secondary > li > a,
+#wpadminbar .quicklinks .ab-top-secondary > li > .ab-empty-item {
+	border-left: 1px solid #E03800;
+}
+
+#wpadminbar .ab-top-menu > li:hover > .ab-item,
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar .ab-top-menu > li > .ab-item:focus,
+#wpadminbar.nojq .quicklinks .ab-top-menu > li > .ab-item:focus {
+	background: #B82E00; /* Fallback */
+	background-image: none;
+}
+
+#wpadminbar .quicklinks a:hover span#ab-updates  {
+	background: #FFF8EB;
+	color: #000;
+}
+
+#wpadminbar ul li:last-child,
+#wpadminbar ul li:last-child .ab-item {
+	border-right: 0;
+}
+
+/**
+ * Search
+ */
+
+#wpadminbar #adminbarsearch .adminbar-input {
+	color: #FFF8EB;
+	text-shadow: #8F5F00 0px -1px 0px;
+}
+
+/* Two rules to ensure browser recognition */
+#wpadminbar #adminbarsearch .adminbar-input::-webkit-input-placeholder {
+	color: #FFF8EB;
+}
+
+#wpadminbar #adminbarsearch .adminbar-input:-moz-placeholder {
+	color: #FFF8EB;
+}
+
+/**
+ * Comments icon
+ */
+#wpadminbar .ab-comments-icon-body {
+	background: #FFF8EB;
+}
+
+#wpadminbar a:hover .ab-comments-icon-body {
+	background: #FFF8EB;
+	color: #000;
+}
+
+#wpadminbar a .ab-comments-icon-arrow {
+	/* Use transparent borders to form a triangle */
+	border-left: 4px solid #ddd;
+	border-bottom: 4px solid transparent;
+}
+
+#wpadminbar a:hover .ab-comments-icon-arrow {
+	border-left-color: #ccc;
+}
+
+/**
+ * RTL
+ */
+ 
+.rtl #wpadminbar .quicklinks > ul > li {
+	border-right: none;
+	border-left: 1px solid #2480a9;
+}
+
+.rtl #wpadminbar .quicklinks > ul > li > a,
+.rtl #wpadminbar .quicklinks > ul > li > .ab-empty-item {
+	border-right: none;
+	border-left: 1px solid #1b607f;
+}
+ 
+.rtl #wpadminbar .quicklinks > ul > li.opposite,
+.rtl #wpadminbar .quicklinks .top-secondary > li,
+.rtl #wpadminbar .quicklinks .ab-top-secondary > li {
+	border-left: none;
+	border-right: 1px solid #1b607f;
+}
+
+.rtl #wpadminbar .quicklinks > ul > li.opposite > a,
+.rtl #wpadminbar .quicklinks .top-secondary > li > a,
+.rtl #wpadminbar .quicklinks .ab-top-secondary > li > a,
+.rtl #wpadminbar .quicklinks .ab-top-secondary > li > .ab-empty-item {
+	border-left: none;
+	border-right: 1px solid #2480A9;
+}
+
+.rtl #wpadminbar ul li:last-child,
+.rtl #wpadminbar ul li:last-child .ab-item {
+	border-left: 0;
+}

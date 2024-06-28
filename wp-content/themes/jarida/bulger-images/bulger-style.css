@@ -1,0 +1,437 @@
+/*
+ created by Michelle Buckley
+ edited as of Feb 20, 2013 6pm
+*/
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,700,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+
+
+
+p {
+     color: #000000;
+     text-align: left;
+}
+
+a {
+     color: #5D9732;
+}
+
+a:hover {
+     color: #482E1F;
+     text-decoration: none;
+}
+
+body {
+    
+}
+
+h1 {
+     color: #3B3023;
+     font-family: 'Lato',sans-serif;
+     font-weight: 900;
+     font-size: 75px;
+     padding-right: 140px;
+     padding-top: 50px;
+     text-align: right;
+     text-transform: uppercase;
+}
+
+h2 {
+     color: #3B3023;
+     font-family: 'Merriweather',serif;
+        font-weight: 900;
+     font-size: 35px;
+         line-height: 42px;
+     text-align: left;
+        margin-top: 8px;
+        margin-bottom: 0px;
+
+}
+
+h2 a {
+     color: #3B3023;
+     text-decoration: none;
+}
+
+h3 {
+     background: none repeat scroll 0% 0% #3B3023;
+     color: #FFFFFF;
+     display: inline-block;
+     font-family: 'Open Sans',sans-serif;
+     font-size: 19px;
+     padding-bottom: 5px;
+     padding-right: 10px;
+     text-transform: uppercase;
+     font-weight: 700;
+}
+
+h3:before {
+     background: none repeat scroll 0% 0% #FFFFFF;
+     content: url("bulger-images/box.png");
+     display: inline;
+     margin: -10px 8px 0px -5px;
+     padding: 18px 10px 5px;
+     position: relative;
+     top: 5px;
+}
+
+
+h3 a {
+     color: #FFFFFF;
+}
+
+.widget > h3 {
+     padding-bottom: 7px;
+}
+
+#under-lw {
+     background: none repeat scroll 0% 0% #3B3023;
+     color: #FFFFFF;
+     font-family: 'Open Sans',sans-serif;
+     font-size: 19px;
+     font-weight: 700;
+     margin: -12px 0px 10px 44px;
+     padding-bottom: 5px;
+     padding-left: 10px;
+     text-transform: uppercase;
+     width: 140px;
+}
+
+.large-orange {
+     color: #C66D00;
+}
+
+#tag {
+     color: #3B3023;
+     display: block;
+     font-family: 'Merriweather',serif;
+     font-size: 18px;
+     font-weight: 900;
+     margin: 0px 0px 10px;
+     padding-right: 155px;
+     text-align: right;
+}
+
+.feature-bulger {
+     color: #C66D00;
+     font-family: 'Open Sans Condensed',sans-serif;
+     font-size: 25px;
+     font-weight: 700;
+     letter-spacing: -1px;
+     text-transform: uppercase
+}
+
+.alignleft {
+     float: left;
+     margin-right: 25px;
+}
+
+#wrap-bulger {
+     background: none repeat scroll 0% 0% #E2E2E1;
+     margin: -30px auto 0;
+}
+
+#container-bulger {
+     margin: 0px auto;
+     padding-bottom: 15px;
+     width: 980px;
+}
+
+#header-bulger {
+    
+}
+
+#social-bluger {
+     float: right;
+     margin-right: 20px;
+}
+
+#content-bulger {
+     background: none repeat scroll 0% 0% #FFFFFF;
+     border-bottom: 23px solid #3B3023;
+     border-top: 23px solid #3B3023;
+     box-shadow: 0px 9px 13px #888888;
+     margin-top: 15px;
+     padding: 25px;
+}
+
+#left-bulger {
+     border-right: 1px dotted #000000;
+     float: left;
+     width: 600px;
+}
+
+#left-under-one {
+     border-right: 1px dotted #000000;
+     float: left;
+     padding-right: 20px;
+     width: 300px;
+}
+
+#left-under-two {
+     float: left;
+     margin-left: 15px;
+     width: 240px;
+}
+
+#right-bulger {
+     float: left;
+     margin-left: 20px;
+     width: 300px;
+}
+
+.entry-bulger {
+     border-bottom: 5px solid #000000;
+     color: #000000;
+     font-family: 'Merriweather',serif;
+         font-weight: 400;
+     font-size: 20px;
+         line-height: 31px;
+     margin-bottom: 30px;
+     padding-bottom: 55px;
+     width: 580px;
+}
+
+.entry-bulger p {
+     margin-bottom: 10px;
+     text-indent: 10px;
+}
+
+.entry-bulger img.wp-post-image {
+     float: left;
+     margin-right: 20px;
+        margin-top: 25px;
+     border: 1px solid #000;
+}
+
+.rounded-button, div.bulger-news-widget .rounded-button a {
+     background: none repeat scroll 0% 0% #3C3124;
+     border-radius: 10px 10px 10px 10px;
+     color: #FFFFFF;
+     font-family: 'Open Sans',sans-serif;
+     font-size: 12px;
+     font-weight: 400;
+     padding: 2px 7px;
+     text-align: center;
+     text-decoration: none ! important;
+     text-transform: uppercase;
+
+}
+
+
+
+
+
+
+
+.rounded-button a {
+     color: #FFFFFF;
+     text-decoration: none ! important;
+}
+
+.rounded-button-orange {
+     background: none repeat scroll 0% 0% #C66D00;
+     border-radius: 10px 10px 10px 10px;
+     color: #FFFFFF;
+     font-family: 'Open Sans',sans-serif;
+     font-size: 12px;
+     font-weight: 400;
+     padding: 2px 7px;
+     text-align: center;
+     text-decoration: none ! important;
+     text-transform: uppercase;
+}
+
+.rounded-button-orange a {
+     color: #FFFFFF;
+     text-decoration: none ! important;
+}
+
+.widget {
+     /*font-family: 'Merriweather',serif;*/
+     font-size: 13px;
+     font-weight: 900;
+     line-height: 20px;
+     margin-bottom: 5px;
+}
+
+.widget i {
+     display: block;
+     font-family: Arial,Sans-Serif;
+     font-size: 14px;
+     font-weight: normal;
+     text-align: center;
+}
+
+.poll-widget {
+     border-bottom: 5px solid #3C3124;
+     border-top: 5px solid #3C3124;
+     padding: 0px 0px 20px;
+     color: #3B3023;
+
+}
+
+
+.poll-widget p {
+
+        line-height: 20px;
+        font-size: 14px;
+        margin-top: 17px;
+        margin-bottom: 10px;
+}
+
+
+.poll-widget ul li a {
+
+        color: #3B3023;
+   
+
+}
+
+
+
+.poll-widget p a {
+
+        color: #3B3023;
+
+}
+
+
+.poll-widget li {
+
+        line-height: 20px;
+        font-size: 14px;
+        margin-bottom: 5px;
+             text-align:center;
+}
+.poll-widget .fergcorp_countdownTimer_event_li {
+
+    font-size: 32px;
+
+
+}
+
+
+.bulger-news-widget, .bulger-timeline-widget, .bulger-files-widget, .bulger-lwnews-widget, .bulger-bench-widget {
+     display: block;
+     margin-bottom: 30px;
+
+}
+
+.bulger-timeline-widget {
+
+    margin-top: 30px;
+    border-bottom: 5px solid #3C3124;
+}
+
+.bulger-news-widget a, .bulger-files-widget a, .bulger-lwnews-widget a, .bulger-bench-widget a, .bulger-podcast-widget a {
+     color: #000000;
+     font-family: Verdana;
+     font-size: 14px;
+     font-weight: bold;
+     text-decoration: none;
+ 
+}
+
+.bulger-news-widget ul, .bulger-timeline-widget ul, .bulger-files-widget ul, .bulger-lwnews-widget ul, .bulger-bench-widget ul, .bulger-podcast-widget ul {
+     list-style: none outside none;
+     margin: 0px;
+     padding: 0px;
+}
+
+.bulger-news-widget li, .bulger-timeline-widget li, .bulger-files-widget li, .bulger-lwnews-widget li, .bulger-bench-widget li, .bulger-podcast-widget li {
+     margin-bottom: 10px;
+     padding-left: 1.3em;
+     text-indent: -1.5em;
+}
+
+.bulger-news-widget li:before {
+     color: #C76D35;
+     content: "• ";
+     font-size: 18px;
+     margin-left: 4px;
+}
+
+.bulger-timeline-widget li:before, .bulger-files-widget li:before, .bulger-lwnews-widget li:before, .bulger-bench-widget li:before, .bulger-podcast-widget li:before {
+     color: #B7946F;
+     content: "• ";
+     font-size: 18px;
+     margin-left: 4px;
+
+}
+
+.ad-widget {
+     border-bottom: 5px solid #3C3124;
+     border-top: 5px solid #3C3124;
+     /* margin: 20px 0px; */
+     padding: 10px 0px 5px;
+}
+
+.bulger-podcast-widget {
+     /*border-bottom: 5px solid #3C3124;*/
+	 margin: 0 0 20px 0;
+     padding-bottom: 15px;
+}
+
+.bulger-files-widget {
+     border-bottom: 5px solid #3C3124;
+     border-top: 5px solid #3C3124;
+     margin-top: 20px;
+     padding-bottom: 15px;
+}
+
+.bulger-bench-widget {
+     border-top: 5px solid #3C3124;
+     margin-top: 20px;
+}
+
+.bulger-timeline-widget i, .bulger-files-widget i, .bulger-podcast-widget i {
+     display: block;
+     font-size: 14px;
+     text-align: center;
+}
+
+.bulger-bench-widget > p {
+     font-size: 14px;
+     text-align: center;
+}
+
+.video-bulger {
+     border-top: 1px dotted #000000;
+     display: block;
+     padding-top: 10px;
+     font-family: 'Merriweather',serif;
+}
+.widget > p {
+     font-family: 'Merriweather',serif;
+}
+
+.fergcorp_countdownTimer_event_li {
+     color: #C66D00;
+     font-family: 'Open Sans Condensed',sans-serif;
+     font-size: 50px;
+     font-weight: 300;
+     list-style: none outside none ! important;
+     text-align: center;
+        margin-top: 25px;
+        margin-bottom: -30px;
+}
+
+.fergcorp_countdownTimer_event_time {
+     border-bottom: medium none ! important;
+}
+
+.clear {
+     clear: both;
+}
+
+.widget {
+     border-bottom: medium none;
+}
+
+
+

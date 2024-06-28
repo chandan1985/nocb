@@ -1,0 +1,37 @@
+.lens-o-town.sd2-nav-thumb div.vertical-slide-nav-wrapper {
+    width: 115px;
+  right:0px;
+    border-right: 1px solid #3b3b3b;
+    background-color: #252525;
+	
+}
+.sd2-slide-text > p {
+    margin-right: 118px !important;
+}
+.sd2-node-caption {
+    left: -74px !important;
+}
+.lens-o-town > a.deck-navigation.vertical {
+   
+    left: 40% !important;
+    
+}
+.vertical-slide-nav-wrapper {
+    right: 0;
+}
+.lens-o-town .slide-source-custom.slide-type-image.custom-layout-caption.custom-caption-position-bottom .sd2-node-caption, .lens-o-town .slide-source-custom.slide-type-image.custom-layout-caption.custom-caption-position-top .sd2-node-caption, .lens-o-town .slide-source-custom.slide-type-video.custom-layout-caption.custom-caption-position-bottom .sd2-node-caption, .lens-o-town .slide-source-custom.slide-type-video.custom-layout-caption.custom-caption-position-top .sd2-node-caption {
+    left: -42px !important;
+    padding: 10px 15px 5px;
+    right: 8px;
+}
+.sd2-vertical-center-inner {
+    left: 118px !important;
+    margin-left: 24px !important;
+}
+
+.lens-o-town.sd2-nav-thumb > a.deck-set-nav, .lens-o-town.sd2-nav-thumb > a.deck-set-nav.disabled:active, .lens-o-town.sd2-nav-thumb > a.deck-set-nav.disabled:hover {
+   
+    right: 0 !important;
+    margin-right:37px;	
+    
+}

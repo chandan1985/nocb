@@ -1,0 +1,38 @@
+{
+  "name": "rosette/api",
+  "version": "1.14.4",
+  "description": "PHP Interface for Rosette Text Analytics",
+  "license": "Apache",
+  "keywords": [
+    "basis",
+    "entity extraction",
+    "morphology",
+    "name similarity",
+    "ner",
+    "nlp",
+    "rosette",
+    "sentiment",
+    "text analytics",
+    "text embeddings"
+  ],
+  "authors": [
+    {
+      "name": "Basis Technology Corp",
+      "homepage": "https://developer.rosette.com"
+    }
+  ],
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": ">=1.9",
+    "phpspec/phpspec": "~2.5",
+    "rmccue/requests": ">=1.0"
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "autoload": {
+    "psr-4": {
+        "rosette\\": "./source/rosette"
+    }
+  }
+}
+

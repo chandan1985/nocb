@@ -1,0 +1,12 @@
+div.menuHead {
+	font-weight: bold;
+	margin: 20px 0 10px 5px;
+}
+
+input.inputfield {
+	margin: 0 0 10px 0;
+}
+
+div.redText {
+	color: #990000;
+}

@@ -1,0 +1,71 @@
+   May 12th, 2011 4:08:10 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:08:11 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:08:12 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:08:12 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:08:13 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:08:13 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:08:14 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:08:14 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:08:15 pm - [info] Getting license reset information
+   May 12th, 2011 4:08:17 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:09:18 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:13:10 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:33:41 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:30 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:31 pm - [info] Forcing token check due to cache expiry
+   May 12th, 2011 4:34:31 pm - [error] Performing server token check
+   May 12th, 2011 4:34:38 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:38 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:38 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:38 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:39 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:40 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:40 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:40 pm - [info] Getting license reset information
+   May 12th, 2011 4:34:42 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:42 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:44 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:34:49 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:36:12 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:36:13 pm - [info] Authenticating due to expiry
+   May 12th, 2011 4:36:13 pm - [error] Authenticating
+   May 12th, 2011 4:37:30 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:37:39 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:39:38 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:39:39 pm - [info] Authenticating due to expiry
+   May 12th, 2011 4:39:39 pm - [error] Authenticating
+   May 12th, 2011 4:39:42 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:39:50 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:39:51 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:39:54 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:06 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:16 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:18 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:22 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:22 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:22 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:23 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:23 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:24 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:24 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:25 pm - [info] Getting license reset information
+   May 12th, 2011 4:40:25 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 12th, 2011 4:40:27 pm - [info] WPtouch Pro Initializations 2.1.5
+   May 13th, 2011 7:18:42 pm - [error] Authenticating
+   May 17th, 2011 3:39:35 pm - [error] Authenticating
+   May 17th, 2011 3:55:25 pm - [error] Performing server token check
+   May 17th, 2011 5:25:23 pm - [error] Authenticating
+   May 17th, 2011 5:30:50 pm - [error] Performing server token check
+   May 17th, 2011 9:28:01 pm - [error] Authenticating
+   May 17th, 2011 9:42:43 pm - [error] Performing server token check
+   May 18th, 2011 3:42:59 pm - [error] Authenticating
+   May 18th, 2011 5:55:51 pm - [error] Authenticating
+   May 18th, 2011 6:02:15 pm - [error] Performing server token check
+   May 18th, 2011 6:07:23 pm - [error] Performing server token check
+   May 18th, 2011 6:07:23 pm - [error] Performing server token check
+   May 18th, 2011 6:07:23 pm - [error] Performing server token check
+   May 18th, 2011 6:07:24 pm - [error] Performing server token check
+   May 18th, 2011 6:13:43 pm - [error] Performing server token check
+   May 20th, 2011 8:43:45 pm - [error] Authenticating
+   May 20th, 2011 8:55:07 pm - [error] Performing server token check
+   May 23rd, 2011 3:39:44 pm - [error] Authenticating

@@ -1,0 +1,36 @@
+{
+  "require": {
+    "php": "^7.4",
+    "google/cloud-language": ">= 0.22",
+    "google/cloud-vision": ">= 1.0.0",
+    "google/cloud-translate": ">= 1.0.0",
+    "rosette/api": ">=1.14",
+    "meaningcloud/meaningcloud-php": ">=2.0",
+    "cheprasov/php-redis-client": ">=1.9.0",
+    "recombee/php-api-client": ">=4.0",
+    "aws/aws-sdk-php": ">= 3.0",
+    "algolia/algoliasearch-client-php": ">= 2.4",
+    "google/cloud-retail": ">=v1.0.0",
+    "jsq/amazon-es-php": ">=0.3.0",
+    "google/apiclient": ">=2.14",
+    "solarium/solarium": ">= 6.1.5",
+    "timber/timber": ">= 1.9.0",
+    "elasticsearch/elasticsearch": "< 8.0",
+    "gmostafa/php-graphql-client": "^1.13",
+    "symfony/event-dispatcher": ">=5.3.7",
+    "opensearch-project/opensearch-php": ">=1.0",
+    "jumbojett/openid-connect-php": "^0.9.5",
+    "ext-simplexml": "*"
+  },
+  "replace": {
+    "google/apiclient-services": "*"
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": false
+    },
+    "platform": {
+      "php": "7.4.12"
+    }
+  }
+}

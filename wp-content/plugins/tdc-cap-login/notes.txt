@@ -1,0 +1,8 @@
+filter_return = apply_filters('paywall-external-bypass', false);
+        if ($filter_return === TRUE) {
+                $this->dmcss_data['access'] = self::BYPASS;
+                return;
+        }
+
+
+inital hook:  plugins_loaded

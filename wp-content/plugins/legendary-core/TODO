@@ -1,0 +1,10 @@
+#filename=TODO
+#note=Capture of some TODO items
+
+TODO:(ldl) Decide if menu should be in 'Settings' in Wordpress.
+
+TODO:(ldl) Define, create uninstall code (legendary-core/uinstall.php ?).
+
+TODO:(ldl) Should the shortcode (set now as "[ldl_lists]") be a configurable? // I think not
+
+

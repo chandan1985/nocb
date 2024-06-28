@@ -1,0 +1,12 @@
+/*
+ * legendary.css
+ */
+body #ldldata-main-content .list-title h1 {
+	display:none;
+}
+#ldldata-main-content .list-title h2 {
+	padding:0;
+}
+.mythyr-poweredby {
+	display:none !important;
+}

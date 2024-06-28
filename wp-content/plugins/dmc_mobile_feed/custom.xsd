@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  targetNamespace="/wp-content/plugins/dmc-google-news-feed/dmccustom.xsd"
+  xmlns="/wp-content/plugins/dmc-google-news-feed/dmccustom.xsd"
+  elementFormDefault="qualified"> 
+  
+  <xsd:element name="dmc"> 
+    <xsd:complexType> 
+      <xsd:sequence>
+        <xsd:element name="id" type="xsd:string" minOccurs="0">
+          <xsd:annotation>
+            <xsd:documentation>
+              Unique ID for the article. Optional field but required for other purposes, namely mobile reader app. 
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element> 
+        <xsd:element name="image" type="xsd:string" minOccurs="0">
+          <xsd:annotation>
+            <xsd:documentation>
+              Associated image of the article. Optional field, only included if article has one attached. 
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+         <xsd:element name="mobile-thumbnail" type="xsd:string" minOccurs="0">
+          <xsd:annotation>
+            <xsd:documentation>
+              Associated mobile-thumbnail of the article. Optional field, only included if article has one attached. 
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="mobile-article" type="xsd:string" minOccurs="0">
+          <xsd:annotation>
+            <xsd:documentation>
+              Associated mobile-article of the article. Optional field, only included if article has one attached. 
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="standard-article" type="xsd:string" minOccurs="0">
+          <xsd:annotation>
+            <xsd:documentation>
+              Associated standard-article of the article. Optional field, only included if article has one attached. 
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="standard-featured" type="xsd:string" minOccurs="0">
+          <xsd:annotation>
+            <xsd:documentation>
+              Associated standard-featured of the article. Optional field, only included if article has one attached. 
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+        <xsd:element name="standard-thumbnail" type="xsd:string" minOccurs="0">
+          <xsd:annotation>
+            <xsd:documentation>
+              Associated standard-thumbnail of the article. Optional field, only included if article has one attached. 
+            </xsd:documentation>
+          </xsd:annotation>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType> 
+  </xsd:element> 
+</xsd:schema> 

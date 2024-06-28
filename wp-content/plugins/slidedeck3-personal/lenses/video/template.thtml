@@ -1,0 +1,48 @@
+<?php 
+// trim title for video
+if( strlen($title) > 40 ){
+	$title = substr($title, 0, 40).'...';
+}
+?>
+<div class="slide-content">
+
+    <div class="video-wrapper">
+<?php if(isset($slidedeck['options']['cta-enable']) && $slidedeck['options']['cta-enable'] == 1){ ?>
+<?php if( $slidedeck['options']["cta-custom-opt"]== "cbutton"  && !empty( $permalink )){global $slidedeck_fonts;//&& !is_admin()?>
+       
+	<button class= "cta-enable <?php echo $slidedeck['options']['cta-position'];?>" style = "cursor:pointer; background-color: <?php echo $slidedeck['options']['cta-btn-color'];?>; color: <?php echo $slidedeck['options']['cta-text-color'];?>; " onclick="CTAfunction('<?php echo $permalink;?>')"><span class = "cta-btn-text-font" style ="font-family:<?php echo $slidedeck_fonts[$slidedeck['options']['ctaBtnTextFont']]['stack'];?>; font-size:<?php echo $slidedeck['options']['ctaBtnFontSize'];?>; "><?php echo $slidedeck['options']['cta-btn-text'] ?><span></button>
+<?php 
+}
+else if( $slidedeck['options']["cta-custom-opt"]== "cimage" && !empty( $permalink )){//&& !is_admin()  ?>
+
+<img class="cta-custom-img" src = "<?php echo $slidedeck['options']['cta-custom-img-url'];?>" style="cursor:pointer; z-index:10; position:absolute; height: <?php echo $slidedeck['options']['cta-css-height']; ?>%; width: <?php echo $slidedeck['options']['cta-css-height']; ?>%; left: <?php echo $slidedeck['options']['cta-css-left']; ?>%; bottom:<?php echo $slidedeck['options']['cta-css-bottom']; ?>%; " onclick="CTAfunction('<?php echo $permalink;?>')" />		
+
+<?php
+}
+}
+?>
+        <?php echo $video_container; ?>
+		<meta itemprop="thumbnailURL" content="<?php echo $image; ?>" />
+        <div class="cover" data-sd2-slide-image="<?php echo $image; ?>">
+            <a class="play-video-button play" href="#play">Click To Play</a>
+        </div>
+    </div>
+
+    <div class="slide-text-wrapper">
+        <div class="slide-text">
+            <h3 itemprop="name" class="slide-title accent-color">
+                <?php if( $slidedeck['options']['linkTitle'] == true ): ?><a href="<?php echo $permalink; ?>" class="accent-color" target="<?php echo $target; ?>"><?php endif; ?>
+                    <?php echo $title; ?>
+                <?php if( $slidedeck['options']['linkTitle'] == true ): ?></a><?php endif; ?>
+            </h3>
+            <div itemprop="description" class="slide-description">
+                <?php if( !empty( $excerpt ) ): ?>
+                    <p><?php echo $excerpt; ?></p>
+                <?php endif; ?>
+                <a href="<?php echo $permalink; ?>" class="readmore accent-color" target="<?php echo $target; ?>"><?php _e( 'Go to video page', 'slidedeck' ); ?></a>
+            </div>
+            <span class="rule accent-color-background">&nbsp;</span>
+        </div>
+    </div>
+</div>
+

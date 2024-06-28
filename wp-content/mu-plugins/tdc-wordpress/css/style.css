@@ -1,0 +1,30 @@
+/*
+ * Default Styles for tdc-user_management
+*/
+#tdc_user_management .description{
+	font-size:11px;
+	font-style:italic;
+	margin-top:10px;
+}
+#tdc_user_management .tdc-rolecaps{
+	max-width:960px;
+	margin:10px 0;
+}
+#tdc_user_management .tdc-rolecaps h3, #tdc_user_management .tdc-network h3{
+	margin-top:5px;
+	margin-left:10px;
+}
+#tdc_user_management .tdc-network{
+	max-width:480px;
+	margin:10px 0;
+}
+#tdc_user_management .rolecap label{
+	color:green;
+	font-weight:bold;
+}
+#tdc_user_management .deprecated label{
+	color:#999999;
+}
+#tdc_user_management label{
+	margin-left:5px;
+}

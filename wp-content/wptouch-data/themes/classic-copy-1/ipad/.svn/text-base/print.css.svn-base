@@ -1,0 +1,25 @@
+/* @override http://21.bravenewcode.com/wordpress/wp-content/plugins/wptouch-pro/themes/classic/ipad/style.css */
+
+#wptouch-header, #popovers-container, #main-menu, #object, #embed, iframe, .post-navigation, a#airprint, a.share-post, .comment-reply-box, #switch, .footer, .post-cats, .leave-a-comment, #wptouch-welcome, #share-popover, .navigation, .commentlist  {
+	display: none;
+	visibility: hidden;
+}
+
+#content img {
+	display: block !important;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	clear: both;
+}
+
+body, #iscroll-wrapper,#iscroll-content, #content {
+	display: block !important;
+	height: auto !important;
+	width: auto !important;
+	margin: auto !important;
+	padding: auto !important;
+	overflow: visible !important;
+	visibility: visible !important;
+}

@@ -1,0 +1,91 @@
+/*Top Nav and Search Block*/
+@media only screen and (max-width: 985px) {
+.top-nav .breaking-news {display:none;}
+.top-menu #top-menu-mob {display: none;}
+}
+@media only screen and (min-width: 767px) and (max-width: 985px) {
+.top-menu {display:block !important;float:left !important;}
+.top-menu .menu {display:block !important;float:left !important;}
+}
+@media only screen and (max-width: 767px) {
+.top-menu {display: none;}
+.top-menu-liney {display: block !important;float:left !important;}
+}
+@media only screen and (max-width: 479px) {
+.search-block #s, .search-block #s:focus {width: 175px;
+max-width: 175px;}
+}
+
+/*PRINT SETTINGS*/
+@media print {
+body {font-size: 18px;}
+#main-nav {display: none;}
+aside {display:none;}
+.content {width: 80%;}
+footer {display: none;}
+#respond {display: none;}
+.top-nav {display: none;}
+.ads-top {display: none;}
+.sharedaddy.sd-sharing-enabled {display: none;}
+.post-navigation {display: none;}
+#crumbs {display: none;}
+.header-content {padding: 0px 0;}
+#main-content {margin:0; padding-left:40px;padding-right:40px;}
+header {margin:0;}
+p.post-meta {font-size: 18px;}
+}
+
+/* issue custom tax listing */
+.issues .category {color:#044892;font-weight:bold;font-size:1.3em;margin-bottom: 7px;border-bottom: 1px solid #f2f2f2;padding: 8px 0 14px;}
+.issues .item-list  {padding:5px 0px;}
+.issues .item-list .entry {display: none;}
+.issues .item-list .post-title {font-size:20px;margin-bottom:5px;}
+.issues .item-list .post-meta {display: none;}
+
+/* force paywall key image size for slideshows */
+#flexslider .dmcss_key_icon img,#ei-slider .dmcss_key_icon img {display: inline !important;height: 1em !important;width: auto !important;}
+@media only screen and (max-width: 767px) {
+/* hide slideshow on mobile */
+#ei-slider,#flexslider {display: none;}
+}
+/* fix for slideshow covering topnav */
+#main-nav.fixed-nav, .wrapper.layout-2c #main-nav.fixed-nav {z-index: 9999;}
+
+/* poll styling from MALW and given to all wp-polls */
+.widget_polls-widget ul {text-align: center;}
+.widget_polls-widget ul li {background: none;padding-left: 0;}
+.wp-polls-form p {text-align: left !important;}
+.wp-polls-form ul li {padding-left: 12px;}
+.wp-polls-ans p {text-align: center !important;}
+.widget_polls-widget {margin-bottom: 7px;}
+
+/*Poll Fixes*/
+.sidebar-narrow .widget-container .wp-polls li {border-bottom: none;}
+.wp-polls-ul {padding: 0px;margin: 0px 0px 0px -10px;}
+.wp-polls-ul li {font-size: 13px !important;}
+
+/*Acton on form styles*/
+.entry #ao_alignment_container table td, .entry #ao_alignment_container table th{
+    border-top: 0px;
+    border-bottom: 0px;
+border-right: 0px;
+border-left: 0px;}
+	
+.entry #ao_alignment_container  table{
+border-top: 0px;
+    border-bottom: 0px;
+border-right: 0px;
+border-left: 0px;}
+
+.entry #ao_alignment_container  table td{
+border-top: 0px;
+    border-bottom: 0px;
+border-right: 0px;
+border-left: 0px;}
+
+.ao_tbl_container{width:100%;}
+.ao_tbl_container .ao_tbl_cell {float:left;}
+.sidebar .ao_tbl_container .ao_tbl_cell{padding-left:0px !important;}
+
+/*Hide ctdwn widget marketing*/
+.shailan_CountdownWidget small{display:none;}

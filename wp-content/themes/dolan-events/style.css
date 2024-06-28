@@ -1,0 +1,348 @@
+/*
+Theme Name: Dolan Events Theme Version 3
+Version: 3
+Theme Author: G.1440
+*/
+
+/*Reset*/
+html, body, button, input, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td 
+{margin: 0;border: 0;padding: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+table {border-collapse: collapse;border-spacing: 0;}
+a {text-decoration:none}
+
+/*End Reset*/
+input {font-family: Arial, Helvetica, sans-serif;}
+p {font-size:1.2em}
+body {font:62.5% Arial, Helvetica, sans-serif}
+a.logo {float:left;margin:10px 30px;}
+#past-event h1 {border-bottom: 1px solid #ccc; margin:0 30px 15px 0}
+
+#wrapper {position:relative; z-index: 0; width:976px; margin:auto; top:-65px; }
+#wrapper.no-nav {position:relative; z-index: 0; width:976px; margin:auto; top:10px; }
+#container {background:url(images/common/mid-bg.png) repeat-y; width:976px; margin:auto}
+#container-top {background: url(images/common/container-top.png) no-repeat; height: 55px; width:976px; margin:auto; margin-top: 10px;}
+#wrapper.no-nav #container-top {background: url(images/common/container-top.png) no-repeat; height: 10px; width:976px; margin:auto; margin-top: 10px;}
+#container-btm {background: url(images/common/container-btm.png) no-repeat 0 0;  margin:auto;  width: 976px; margin-bottom:10px}
+
+#parent-nav {background: url(images/common/parent-nav.png) no-repeat 0 0; width:952px; margin:auto; height:39px; padding:13px 0 ; position:relative; z-index:2}
+
+input[type="submit"]{
+	border: 1px solid #CCCCCC;
+}
+
+#searchform{
+	padding-top: 20px;
+}
+
+.screen-reader-text{
+	display: none;
+}
+
+.parent-logo {
+	margin:0 20px;
+	padding:0;
+	background: transparent !important;
+	border:none;
+	float:left;
+	width: 200px;
+}
+.sf-menu li.parent-logo a{
+	padding:0 10px 0 20px;
+	background: transparent !important;
+	border:none;
+}
+.sf-menu li a{
+	border-left:	1px solid #ccc;
+}
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+}
+.sf-menu {
+	line-height:	1.0;
+}
+.sf-menu ul {
+	position:		absolute;
+	top:			-999em;
+	width:			20em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width:			100%;
+}
+.sf-menu ul li a{
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.sf-menu ul li:first-child a{
+	border-top:none !important;
+	border-bottom:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+.sf-menu li:hover {
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float:			left;
+	position:		relative;
+}
+.sf-menu a {
+	display:		block;
+	position:		relative;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left:			0;
+	top:			2.5em; /* match top ul list item height */
+	z-index:		99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left:			20em; /* match ul width */
+	top:			0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top:			-999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left:			20em; /* match ul width */
+	top:			0;
+}
+
+/*** DEMO SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.sf-menu a {
+	border-left:	1px solid #fff;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+.sf-menu li {
+	background:		transparent;
+}
+.sf-menu li li {
+	background:		#fff;
+}
+.sf-menu li li li {
+	background:		#9AAEDB;
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	background:		#fff;
+	outline:		0;
+}
+
+/*** arrows **/
+.sf-menu a.sf-with-ul {
+	padding-right: 	2.25em;
+	min-width:		1px; /* trigger IE7 hasLayout so spans position accurately */
+}
+.sf-sub-indicator {
+	position:		absolute;
+	display:		block;
+	right:			.75em;
+	top:			1.05em; /* IE6 only */
+	width:			10px;
+	height:			10px;
+	text-indent: 	-999em;
+	overflow:		hidden;
+	background:		url('../images/arrows-ffffff.png') no-repeat -10px -100px; /* 8-bit indexed alpha png. IE6 gets solid image only */
+}
+a > .sf-sub-indicator {  /* give all except IE6 the correct values */
+	top:			.8em;
+	background-position: 0 -100px; /* use translucent arrow for modern browsers*/
+}
+/* apply hovers to modern browsers */
+a:focus > .sf-sub-indicator,
+a:hover > .sf-sub-indicator,
+a:active > .sf-sub-indicator,
+li:hover > a > .sf-sub-indicator,
+li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px; /* arrow hovers for modern browsers*/
+}
+
+/* point right for anchors in subs */
+.sf-menu ul .sf-sub-indicator { background-position:  -10px 0; }
+.sf-menu ul a > .sf-sub-indicator { background-position:  0 0; }
+/* apply hovers to modern browsers */
+.sf-menu ul a:focus > .sf-sub-indicator,
+.sf-menu ul a:hover > .sf-sub-indicator,
+.sf-menu ul a:active > .sf-sub-indicator,
+.sf-menu ul li:hover > a > .sf-sub-indicator,
+.sf-menu ul li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px 0; /* arrow hovers for modern browsers*/
+}
+
+/*** shadows for all but IE6 ***/
+.sf-shadow ul {
+	background:	url('images/common/shadow.png') no-repeat bottom right;
+	padding: 0 8px 9px 0;
+}
+.sf-shadow ul.sf-shadow-off {
+	background: transparent;
+}
+
+
+
+/*Main Nav*/
+#main-nav {background: url(images/common/navbg.png) no-repeat 0 0; width:956px; height:53px; margin:auto}
+#main-nav li {float: left; background: url(images/common/nav-divider.png) no-repeat 0 bottom}
+#main-nav li a {display:block; padding:20px 20px 0 20px; font-size:1.6em; font-weight:bold; text-transform:uppercase; color:#333; height:33px; text-align:center}
+#main-nav li.current_page_item a {background: url(images/common/nav-arrow.png) no-repeat 50% 45px}
+#main-nav li a:hover {color:#333; background: transparent;}
+#header{display:inline-block; width:100%;}
+#social {/*width:350px;*/position:relative; top:5px; right:150px;float:right;}
+#social a {padding-left:2px;}
+#social a:hover {background: none;}
+.social-icons{
+	float:right;
+}
+a.share {padding-right:20px}
+button {
+    font-size: 12px;
+}
+
+.st_sharethis{
+	width:150px;
+	float:right;
+	margin-left:10px;
+}
+
+.stButton {
+	margin-left: 0  !important;
+	margin-right: 0  !important;
+}
+.stButton .sharethis {
+background-position: 0 0  !important;
+background:url("images/common/share.png") no-repeat scroll 0 0 transparent !important;
+width:121px;
+height: 32px;
+float: left;
+}
+.stButton .stButton_gradient {
+background-image:none !important;
+background-repeat:repeat-x !important;
+border-left:none !important;
+border-right:none !important;
+font-family:serif !important;
+font-size:16px;
+line-height:32px  !important;
+padding:0  !important;
+text-indent: -5000px  !important;
+}
+.stButton .chicklets {
+height:32px  !important;
+}
+
+#main-content {background: url(images/common/main-content-bg.png) no-repeat 0 0; width:970px; margin:auto; padding-top:5px; clear:left;}
+#main-content-btm {background: url(images/common/main-content-btm.png) no-repeat 0 0;  margin:auto; padding-top:5px; width: 950px}
+div.column {float: left; width: 200px; font-size: 1.2em; margin: 0px 15px 20px 0px;}
+
+
+/*VIP Top Nav*/
+#main-nav li.first {background-image:none}
+#main-nav li a.home {width:113px;}
+#main-nav li a.videos {width:113px}
+#main-nav li a.photos {width:124px}
+#main-nav li a.current {width:214px}
+#main-nav li a.previous {width:219px}
+#main-nav li a.sponsors {width:154px}
+
+
+#content {border: 1px solid #bdbcbd; border-width:0 1px; width:948px; margin:auto; padding-top: 20px; background: url(images/common/right-col.png) repeat-y 716px 0; overflow:hidden}
+
+/*Left Content Top*/
+#left-content {width:716px; float:left;}
+#event {margin-bottom:30px; padding-left:20px;overflow:hidden}
+object {float: left; border:1px solid #000}
+#registration {float:left; width:270px; padding-left:20px}
+#event p {font-size:1.2em;}
+#event blockquote, #event blockquote p {font: italic 1.3em/1.7em Georgia, "Times New Roman", Times, serif; text-align:center;  margin:23px 0; color:#666; width:232px}
+p.title {clear:both}
+div.title p {margin:20px 0; padding:0 20px}
+
+/*
+p.title span {font-weight:bold; color:#036}
+*/
+#btm-buttons {padding-left:20px}
+
+/*Left Content Bottom*/
+#past-event {background: url(images/common/btm-shadow.png) repeat-x 0 0; margin-top:20px; padding:20px; overflow:hidden;}
+#col1 {width:328px; background: url(images/common/vertical-divider.png) repeat-y right 0;  float:left; padding-bottom:30px}
+
+#page-changer {margin:20px auto; width:250px}
+#page-changer select {border:1px solid #ccc; width:120px; margin:10px 10px 0 0; font-size:1.3em; float:left;}
+p.photos {font-weight:bold; margin:20px 0 8px 0}
+img.reprint-photo {float:left;}
+#col2 {float:left; width:307px; margin-left: 30px}
+/*Photo Stack*/
+
+#photos {margin:25px 0}
+#controls {margin:0 0 0 10px;}
+#controls li {float:left;}
+#controls a#prev,
+#controls a#next {text-align: center;}
+
+/*Right Content*/
+#right-content {float:left; width:232px;}
+#right-content .error { font-size: 11px; color: #c00; padding: 1em; background: #f7f788; margin: 1em 0;}
+#right-content .success { font-size: 11px; color: #080; padding: 1em; background: #f7f788; margin: 1em 20px;}
+form.signUp {width: 200px; margin:0 auto 10px auto; overflow:hidden; clear: both; }
+form.signUp label {font-size:1.4em; font-weight:bold; clear:both; display:block }
+input[type=text] {border:1px solid #ccc;background: #fff;}
+input[type=button], input[type=submit] {line-height: 1;padding:6px 10px;}
+form.signUp input.textField {margin:5px 0; width:198px; font-size: 18px; padding: 4px 0; color: #666; font-family: Arial,Sans-serif;}
+.sidebox, #sponsors {background: url(images/common/right-shadow.png) repeat-x 0 0; padding-left: 20px; margin-bottom:30px}
+.sidebox { background-position: 0 bottom; padding-bottom: 20px; }
+.sidebox ul { list-style: none; margin: 0; font-size: 12px; font-family: Arial,Sans-Serif; }
+.sidebox ul li.current_page_item a,
+.sidebox ul li a:hover { text-decoration: underline; }
+#sponsors h2 {padding-top:20px;padding-left:0;}
+#sponsors li {font-size:1.2em; margin-bottom:8px}
+
+/*Footer*/
+#footer p {margin-bottom: 10px;}
+#footer {clear:both;background: #fff url(images/common/btm-shadow.png) repeat-x 0 0; margin-top:20px; padding:20px 0; text-align: center; overflow:hidden; }
+#footer img {}
+.credit{ font-size:12px; color:#fff; margin:auto;  width: 976px; margin-bottom:50px; text-align: center;}
+.credit a{ color:#fff;}
+/*Interior*/
+.current-winners {background: url(images/common/photo-column.jpg) no-repeat 97% 25%; }
+.int_wrap { margin: 0 20px; line-height: 1.3333; }
+.int_wrap h1 { margin: 0; }
+.int_wrap p { margin: 1em 0; }
+dl, .interior-cols {float:left; width:200px; padding:0 20px 20px 0; margin-top:30px}
+dl {font-size:1.2em;padding: 0; margin:0}
+dt {font-weight:bold; margin-bottom: 10px}
+
+#dolan-footer{
+	margin-top:10px;
+	display:inline-block;
+	width:100%;
+	font-size:13px;
+}
+#dmc-logo{
+	background: url("http://bridgetowermedia.com/files/2016/08/btmlogo140.png") no-repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 30px;
+    width: 145px;
+	float:right;
+}

@@ -1,0 +1,6 @@
+
+Notes:
+
+
+widget injection and title redraw are disabled in internal sponsored content pages
+	this is due to how wordpress handles the title redraw and causes a nasty loop

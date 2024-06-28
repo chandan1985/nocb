@@ -1,0 +1,81 @@
+/*
+ * legendary-admin.css
+ */
+
+h2#ldata-hed {background:#23282d;padding:8px 0;text-align:center;margin-bottom:20px;color:#fff;font-size:14px;background: linear-gradient(to bottom, rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);}
+h2#ldata-hed img {height:20px;}
+.ldl_wp_admin_sect label {font-weight:bold;margin:0;display:block;width:auto;}
+.ldl_wp_admin_sect + .ldl_wp_admin_sect {margin-top:10px;}
+#ldl_options {padding-left:22px;opacity:0.85}
+#ldl_options label {color:rgba(0,0,0,0.8);}
+#ldl_options label + p {
+	margin:0;
+}
+.ldl_premium_sect, .ldl_main_sect {
+	float:left;width:40%;
+}
+.ldl-clear-fix {
+	clear:both;
+}
+ul.ldl_options_box {border:1px solid rgba(0,0,0,0.2);width:90%;height:120px;overflow-y:auto;list-style:none;padding:4px;margin:0;}
+.ldl_options_box + label, .ldl_wp_admin_sect label + label, .ldl_wp_admin_sect + .ldl_lookup_block, .ldl_lookup_block + .ldl_lookup_block {margin-top:8px;}
+#ldl_option_form h3 {text-transform:uppercase;font-size:14px;border-top:1px solid rgba(0,0,0,0.4);margin-bottom:0;padding-top:10px;}
+#ldl_option_form h3:first-child {border-top:none;margin-top:0;}
+#ldl_option_form h3 + p, #ldl_option_form label + p {
+    margin-top:2px;width:85%;
+}
+.ldl_premium_or_tbl {
+	border-collapse:collapse;margin-top:-15px;
+}
+#ldl_option_form table.ldl_premium_or_tbl label {
+	color:#666;
+}
+#ldl_option_form table.ldl_premium_or_tbl label + p {
+	margin-bottom:1px;
+}
+.ldl_premium_or_tbl td {
+	vertical-align:top;padding-top:7px;
+}
+.ldl_premium_or_tbl tr td:first-child {
+	font-size:20px;color:#666;
+}
+#ldl_option_form .ldl_wp_or_sect {
+	text-align:center;font-weight:bold;margin:8px 0;width:20px;display:inline-block;
+}
+#ldl_option_form input[type="text"], #ldl_option_form select {
+	width:85%;max-width:360px;
+}
+#ldl_option_form .ldl_metakeypair_table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#ldl_option_form .ldl_metakeypair_table td {
+	padding:0;
+}
+#ldl_option_form .ldl_metakeypair_table input[type="text"] {
+	width:125px;
+}
+#ldl_option_form .ldl_wp_admin_sect + h3 {margin-top:30px;}
+#ldl_options_master[all-checked-mode] [checked-mode] {
+    opacity:0.5;
+}
+
+#ldata-settings {
+    border:1px solid #23282d;
+    padding:10px 20px 0;
+    background-color:#f8f8f8;
+}
+h4#ldata-foot {
+    background:#23282d;color:#fff;padding:8px;margin-top:0;text-align:center;
+}
+h4#ldata-foot a {color:#fff;opacity:0.9;}
+h4#ldata-foot a:hover {opacity:1;}
+.ldl_lookup_block[ldl-status="error"] .ldl-error {
+	background-color:#f2652e;color:#fff;padding:5px 8px;font-weight:600;display:inline-block; width:auto;min-width:360px;
+}
+.ldl_lookup_block[ldl-status="success"] .ldl-error {
+	display:none;
+}
+.ldl_lookup_block[ldl-status="error"] select {
+	display:none;
+}

@@ -1,0 +1,277 @@
+/*
+ * Default Styles for dmcss-wp
+*/
+
+/* Debug Output */
+.dmcss_messages {
+  max-width: 875px;
+  margin-left: .8em;
+}
+
+.dmcss_message p {
+  margin: 0.6em 0em;
+}
+
+.dmcss_message {
+  margin-top: .5em;
+  border-style: solid;
+  border-width: 1px;
+  margin-bottom: 1em;
+  max-width: 950px;
+  padding:  0.6em;
+}
+
+.dmcss_type_notice {
+  border-color: #99CC99;
+  background-color: #E2F9E3;
+}
+
+.dmcss_type_warning {
+  border-color: #E6DB55;
+  background-color: #FFFBCC;
+}
+
+.dmcss_type_error {
+  border-color: #CC0000;
+  background-color: #F9E2E3;
+}
+
+/* Login form */
+.dmcss_login_form {
+    padding: 0.8em 1.2em 1em;
+  margin: 0;
+}
+
+.dmcss_login_form .message{
+  margin: 0 0 1.3em 0.6em;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.9em;
+  -moz-border-radius:3px;
+  -khtml-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+}
+
+.dmcss_login_form #login_error {
+  background-color: #F9E2E3;
+  border-color: #CC0000;
+}
+
+.dmcss_login_form #login_message {
+  background-color: #FFFFE0;
+  border-color: #E6DB55;
+}
+
+.dmcss_login_form #login_message p.welcome-header {
+  font-weight: bold;
+}
+
+.dmcss_login_form .field,
+.dmcss_login_form .links,
+.dmcss_login_form .submit {
+  clear: left;
+  margin: 0.6em 0;
+  display: block;
+}
+
+.dmcss_login_form label {
+  float: left;
+  width: 120px;
+  padding-top: 3px;
+}
+
+.dmcss_login_form input {
+  display: inline;
+  border: 1px solid #999;
+}
+
+.dmcss_login_form #form_nav {
+    border-bottom: 1px solid #dfdfdf;
+    float: left;
+    height: 37px;
+    padding-top: 4px;
+    width: 100%;
+}
+
+.dmcss_login_form #dmcss_tabs {
+    margin-left: 0;
+}
+
+.dmcss_login_form #dmcss_tabs li {
+  list-style: none outside none;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+
+.dmcss_login_form #dmcss_tabs li,
+.dmcss_login_form #dmcss_tabs li a {
+  float: left;
+}
+
+.dmcss_login_form #dmcss_tabs li a {
+  padding: 8px;
+  text-decoration: none;
+}
+
+.dmcss_login_form #dmcss_tabs li.active_tab {
+  background: none repeat scroll 0 0 #6d6d6d;
+  border-bottom: 1px solid #6d6d6d;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.dmcss_login_form #dmcss_tabs li.active_tab a {
+  color: #ffffff;
+}
+
+.dmcss_login_form .dmcss_tab_div {
+  display:none;
+  padding: 10px;
+  clear: both;
+}
+
+.dmcss_login_form #form_tabs {
+    padding: 10px;
+}
+
+.dmcss_login_form #form_tabs input.disabled {
+  display: none;
+}
+
+#dmcss_registered_content {
+  clear: both;
+  width: 100%;
+  padding: 1em;
+}
+
+/* Popup Login form */
+#popup_loginform {
+  background-clip: padding-box;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  display: none;
+  width: 280px;
+  padding: 12px;
+  position: absolute;
+  z-index: 9;
+}
+
+#popup_loginform.shadow {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* key icon */
+span.lockleft {
+  background:transparent url(/wp-content/plugins/tdc-paywall/images/lock.gif) no-repeat scroll left;
+  padding-left: 1.2em;
+}
+
+.dmcss_key_icon img {
+  display: inline;
+  position: relative;
+  float: none;
+  height: 1em;
+  border: none;
+}
+
+
+/* admin options page */
+.dmcss_templates {
+  display: none;
+}
+
+.paywall_admin {
+padding-left: 10px;
+max-width: 875px;
+}
+
+.paywall_admin .option {
+  padding: 5px;
+}
+
+.paywall_admin select {
+  width: 150px;
+  display: block;
+}
+
+.paywall_admin p.dmcss_description {
+  margin: 3px 0 0;
+  font-size:11px;
+  font-style:italic;
+}
+
+.paywall_admin textarea {
+  width: 30em;
+  height: 10em;
+}
+
+#tdc-paywall-general textarea {
+  height: 5em;
+}
+
+#tdc-paywall-category select {
+  width: inherit;
+}
+
+.widefat .dmcss_pub_delete {
+  width: 50px;
+  text-align: center;
+  vertical-align:middle;
+}
+
+.paywall_admin .form-table th {
+  font-weight: bold;
+}
+
+.paywall_admin .form-table td .dmcss_message {
+  margin:0 0 16px 8px;
+  width:310px;
+  border-width:1px;
+  border-style:solid;
+  padding:12px;
+  -moz-border-radius:3px;
+  -khtml-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+}
+
+.paywall_admin .form-table td #dmcss_login_error {
+  background-color: #F9E2E3;
+  border-color: #CC0000;
+}
+
+.paywall_admin .form-table td #dmcss_login_message {
+  background-color: #FFFFE0;
+  border-color: #E6DB55;
+}
+
+.paywall_admin .section-header {
+  text-align:center;
+  font-size:0.9em;
+  font-weight: bold;
+  padding-bottom: 0;
+}
+
+#data_contents {
+  border: 1px solid #333333;
+  background: #999999;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+#data_contents p {
+  margin: 5px;
+}
+
+/* add / edit post */
+.dmcss_select_label {
+  display:block;
+  margin-left:2px;
+}
+
+.dmcss_select {
+  width:96%;
+}
